@@ -1,0 +1,36 @@
+.TH "Final Software.lm_status" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.lm_status
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBget_lm_status\fP (lab_machine_status, lab_machine, queue)"
+.br
+.RI "Function that polls lab machine status and returns whether it is on or off\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.lm_status\&.get_lm_status ( lab_machine_status,  lab_machine,  queue)"
+
+.PP
+Function that polls lab machine status and returns whether it is on or off\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlab_machine_status\fP dictionary structure tracking the status of all lab machines 
+.br
+\fIlab_machine\fP name of exact machine to query 
+.br
+\fIqueue\fP queue used to update GUI thread 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

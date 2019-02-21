@@ -1,0 +1,65 @@
+.TH "Final Software.gcp_stt.MicrophoneStream" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.gcp_stt.MicrophoneStream
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits object\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self, rate, chunk)"
+.br
+.RI "Streaming audio input from microphone built on Pyaudio library\&. "
+.ti -1c
+.RI "def \fB__enter__\fP (self)"
+.br
+.RI "Initialise pyaudio stream for streaming microphone recording\&. "
+.ti -1c
+.RI "def \fB__exit__\fP (self, type, value, traceback)"
+.br
+.RI "Function to close stream and stop recording\&. "
+.ti -1c
+.RI "def \fBgenerator\fP (self)"
+.br
+.RI "Generator that yields chunks of streaming audio data\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBclosed\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def Final Software\&.gcp_stt\&.MicrophoneStream\&.__init__ ( self,  rate,  chunk)"
+
+.PP
+Streaming audio input from microphone built on Pyaudio library\&. Constructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "def Final Software\&.gcp_stt\&.MicrophoneStream\&.__enter__ ( self)"
+
+.PP
+Initialise pyaudio stream for streaming microphone recording\&. 
+.SS "def Final Software\&.gcp_stt\&.MicrophoneStream\&.__exit__ ( self,  type,  value,  traceback)"
+
+.PP
+Function to close stream and stop recording\&. 
+.SS "def Final Software\&.gcp_stt\&.MicrophoneStream\&.generator ( self)"
+
+.PP
+Generator that yields chunks of streaming audio data\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "Final Software\&.gcp_stt\&.MicrophoneStream\&.closed"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

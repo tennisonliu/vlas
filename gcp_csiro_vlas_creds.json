@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "csiro-vlas-eb112",
+  "private_key_id": "b9b6f33474491fe75dd3d738b46e39ed6e6a9fa6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCJqtBCgS969YO1\nlzC0l478RnYW5y2piJW8EmbB68pr2S3aCWgBd3nYmTeF1I7MTjLXmfyXICrXzoSi\nGyDnD3mbY2TV7V/BdPdakv593uGwK3oU7TYMVdZhFWHvvMK3zcRPnnsVSKSmA24m\nI+8CYopCOqC0RxI5d3FC3MWpfTomcJY65sFUNffTAZfJE8kiK8BdCV2shm8UlC/Y\nYLFvXGVLL8EmJPkFudDFdqnwgEPLCOjwXXwqgWIXBZ/lFH61jppqOpt2fERy/1x3\nzPPW38TsnU3Nf7BDy4viPxm5e+dn13wDd+ndEWG+7FKyQAbRKrFZahaYF/+uLwez\nrJQMlzGBAgMBAAECggEAGkMBk449VoF7bKq42dqHpkxyvo+/QDYUClqgS6IFbWly\nu8NLmewGzHD+DIOt8f+A52wyqUmzopN87cerESj8k830MHMl7yu2/ApKjgx0lTzV\n/yP5SYUebkq78hXaN2IDbwTWigrfjePdoVz9fUD7CwNQINPmABxu+MhQ1LJU43wT\nKku6Y15rg/ffF+ERAGPMdGg6NuvKuOKJLNNmFmJg5dxHQkbjZaaXMWm+oRxELx+t\n55hMNP/jgOiaIldHsqQAULU56mDkzbxu4PrWoh6vv6wtXGSA5yAvPz+/QnH3Wtd+\n+ofoylhSGieiV6wmEDe5s0r5n0ZycQPYpjULNafQIQKBgQC+sWwtWBfjX9hBKdHe\n3Sou8eNkO0ZFJ0hpT6iHbxvR43V+8gqC8450D8NBHjPNMXQWXS0g039DVTEGZHKK\nuLWcvhYvPh3R7tfP0H9UEEKEhH9oRw0/JvBY/XtAR7jtdoAmkJUEzdmfic+pZtaY\n8bn9NiUmokUdKsjcHHDVfCyaZQKBgQC40HlLZJK89yBEE0Z73sUafEs6stuhX9Eo\n4FkXqIU6fYgb0Zt4o9dO8wemW2R5+HkobaFkciiQrF5i+WAZYTsOCg7T1yt6HuRq\nBNjAO3fnnL5Uvjp5ELY10BqpCJFtQEgvR5SQkTjlau4gxR2MQLWB03pnYBi3W/75\ndm+aeEYa7QKBgEBbVK0A/B7qq+tiF8hlT+VEEYA0WQThuxh/n9sFbpgpcfAD8/Q6\nCqu03irN7KGlvQ4HKEHZ3yt0RvVnVRjoObLKnGYZSqsdNoyWS0KtsiVTKkShJiFY\nHOmLstsA2bKaualKRmC2sGmdcw4y/N3lRuXkLimZvkWXuO5AUvxZyhvZAoGAa1Ic\nbYx8raDwKrfqwTnOyZ+N7As7AQ3sHsmQ0u04WIvXAxiIKNkzyZPVSGRgB3gjmzd2\ndibYqZJ+yQi5JmPQ8Ekk7R1REPxpdatU1uRxr5zU5c8Fk5IBzWQIZ0ojcQbYJCR0\nADNkj8y1dXAhxXU6MabFuMwT7j5M5T5CdrgLNc0CgYBsha+QOtcIB5YhBu9qOCqH\n5cavus2AmlUwXKWflOsIR2XASw8wbk6KLqE0XDgyzp9IAs6tDSoo2ZcdkSjAXtk6\ndNUAX/eGOm31zt20ga9RsmlnAPhDyjCYgAgfx06gzxnMqgqqW6CTwxFYZe8hkyR7\nY8AHaY39vZ2CVu7xJJiMRA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "csiro-vlas-agent@csiro-vlas-eb112.iam.gserviceaccount.com",
+  "client_id": "106125973206163159962",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/csiro-vlas-agent%40csiro-vlas-eb112.iam.gserviceaccount.com"
+}

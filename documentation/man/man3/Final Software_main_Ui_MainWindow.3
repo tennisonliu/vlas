@@ -1,0 +1,232 @@
+.TH "Final Software.main.Ui_MainWindow" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.main.Ui_MainWindow
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits object\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBsetupUi\fP (self, MainWindow)"
+.br
+.ti -1c
+.RI "def \fBretranslateUi\fP (self, MainWindow)"
+.br
+.ti -1c
+.RI "def \fBupdate_function\fP (self)"
+.br
+.ti -1c
+.RI "def \fBupdate_info\fP (self, post_text)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBcentralwidget\fP"
+.br
+.ti -1c
+.RI "\fBscroll_area\fP"
+.br
+.ti -1c
+.RI "\fBconv_hist\fP"
+.br
+.ti -1c
+.RI "\fBcsiro_logo\fP"
+.br
+.ti -1c
+.RI "\fBLM_Status\fP"
+.br
+.ti -1c
+.RI "\fBLED_LM1\fP"
+.br
+.ti -1c
+.RI "\fBLED_LM2\fP"
+.br
+.ti -1c
+.RI "\fBLED_LM3\fP"
+.br
+.ti -1c
+.RI "\fBLED_LM4\fP"
+.br
+.ti -1c
+.RI "\fBlm_status_label\fP"
+.br
+.ti -1c
+.RI "\fBconv_hist_label\fP"
+.br
+.ti -1c
+.RI "\fBvoice_commands\fP"
+.br
+.ti -1c
+.RI "\fBvoice_commands_label\fP"
+.br
+.ti -1c
+.RI "\fBtranscript_scroll\fP"
+.br
+.ti -1c
+.RI "\fBtranscription\fP"
+.br
+.ti -1c
+.RI "\fBtranscription_label\fP"
+.br
+.ti -1c
+.RI "\fBrecognised_command\fP"
+.br
+.ti -1c
+.RI "\fBrecognised_command_label\fP"
+.br
+.ti -1c
+.RI "\fBassistant_status\fP"
+.br
+.ti -1c
+.RI "\fBLED_status1\fP"
+.br
+.ti -1c
+.RI "\fBassistant_status_label\fP"
+.br
+.ti -1c
+.RI "\fBmic_status\fP"
+.br
+.ti -1c
+.RI "\fBLED_status2\fP"
+.br
+.ti -1c
+.RI "\fBmic_status_label\fP"
+.br
+.ti -1c
+.RI "\fBlcd\fP"
+.br
+.ti -1c
+.RI "\fBtimer_label\fP"
+.br
+.ti -1c
+.RI "\fBmenubar\fP"
+.br
+.ti -1c
+.RI "\fBstatusbar\fP"
+.br
+.ti -1c
+.RI "\fBget_thread\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+Documentation for the Ui_MainWindow class
+Class object for UI Window
+.fi
+.PP
+ 
+.SH "Member Function Documentation"
+.PP 
+.SS "def Final Software\&.main\&.Ui_MainWindow\&.retranslateUi ( self,  MainWindow)"
+
+.PP
+.nf
+Translates software tags to UI tags displayed on GUI
+
+.fi
+.PP
+ 
+.SS "def Final Software\&.main\&.Ui_MainWindow\&.setupUi ( self,  MainWindow)"
+
+.PP
+.nf
+Function initialises PyQt main window, including all qWidgets and qThreads
+
+.fi
+.PP
+ 
+.SS "def Final Software\&.main\&.Ui_MainWindow\&.update_function ( self)"
+
+.PP
+.nf
+Function that creates a new Qthread and
+connects the signal emitted from the Qthread 
+to update_info()
+
+.fi
+.PP
+ 
+.SS "def Final Software\&.main\&.Ui_MainWindow\&.update_info ( self,  post_text)"
+
+.PP
+.nf
+Function to update widgets in the UI Window
+based on post_text received
+
+.fi
+.PP
+ 
+.SH "Member Data Documentation"
+.PP 
+.SS "Final Software\&.main\&.Ui_MainWindow\&.assistant_status"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.assistant_status_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.centralwidget"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.conv_hist"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.conv_hist_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.csiro_logo"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.get_thread"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.lcd"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LED_LM1"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LED_LM2"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LED_LM3"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LED_LM4"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LED_status1"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LED_status2"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.LM_Status"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.lm_status_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.menubar"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.mic_status"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.mic_status_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.recognised_command"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.recognised_command_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.scroll_area"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.statusbar"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.timer_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.transcript_scroll"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.transcription"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.transcription_label"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.voice_commands"
+
+.SS "Final Software\&.main\&.Ui_MainWindow\&.voice_commands_label"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

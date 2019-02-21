@@ -1,0 +1,111 @@
+\section{Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream Class Reference}
+\label{class_final_01_software_1_1gcp__stt_1_1_microphone_stream}\index{Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}}
+Inheritance diagram for Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_final_01_software_1_1gcp__stt_1_1_microphone_stream}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \textbf{ \+\_\+\+\_\+init\+\_\+\+\_\+} (self, rate, chunk)
+\begin{DoxyCompactList}\small\item\em Streaming audio input from microphone built on Pyaudio library. \end{DoxyCompactList}\item 
+def \textbf{ \+\_\+\+\_\+enter\+\_\+\+\_\+} (self)
+\begin{DoxyCompactList}\small\item\em Initialise pyaudio stream for streaming microphone recording. \end{DoxyCompactList}\item 
+def \textbf{ \+\_\+\+\_\+exit\+\_\+\+\_\+} (self, type, value, traceback)
+\begin{DoxyCompactList}\small\item\em Function to close stream and stop recording. \end{DoxyCompactList}\item 
+def \textbf{ generator} (self)
+\begin{DoxyCompactList}\small\item\em Generator that yields chunks of streaming audio data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ closed}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file gcp\+\_\+stt.\+py.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_final_01_software_1_1gcp__stt_1_1_microphone_stream_a3fd2d755da472a95676667d6db7340eb}} 
+\index{Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}}
+\subsubsection{\_\_init\_\_()}
+{\footnotesize\ttfamily def Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{rate,  }\item[{}]{chunk }\end{DoxyParamCaption})}
+
+
+
+Streaming audio input from microphone built on Pyaudio library. 
+
+Constructor 
+
+Definition at line 14 of file gcp\+\_\+stt.\+py.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_final_01_software_1_1gcp__stt_1_1_microphone_stream_a40c1f1194a6e56aaf19826d9ca4b5c55}} 
+\index{Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}!\_\_enter\_\_@{\_\_enter\_\_}}
+\index{\_\_enter\_\_@{\_\_enter\_\_}!Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}}
+\subsubsection{\_\_enter\_\_()}
+{\footnotesize\ttfamily def Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream.\+\_\+\+\_\+enter\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Initialise pyaudio stream for streaming microphone recording. 
+
+
+
+Definition at line 24 of file gcp\+\_\+stt.\+py.
+
+\mbox{\label{class_final_01_software_1_1gcp__stt_1_1_microphone_stream_ab0a39b62625fab017defd3477f3b1aff}} 
+\index{Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}!\_\_exit\_\_@{\_\_exit\_\_}}
+\index{\_\_exit\_\_@{\_\_exit\_\_}!Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}}
+\subsubsection{\_\_exit\_\_()}
+{\footnotesize\ttfamily def Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream.\+\_\+\+\_\+exit\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{type,  }\item[{}]{value,  }\item[{}]{traceback }\end{DoxyParamCaption})}
+
+
+
+Function to close stream and stop recording. 
+
+
+
+Definition at line 41 of file gcp\+\_\+stt.\+py.
+
+\mbox{\label{class_final_01_software_1_1gcp__stt_1_1_microphone_stream_aa199194eedb8f0e47b1a5bc088518df3}} 
+\index{Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}!generator@{generator}}
+\index{generator@{generator}!Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}}
+\subsubsection{generator()}
+{\footnotesize\ttfamily def Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream.\+generator (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Generator that yields chunks of streaming audio data. 
+
+
+
+Definition at line 58 of file gcp\+\_\+stt.\+py.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{class_final_01_software_1_1gcp__stt_1_1_microphone_stream_a5f693e17e215cfc968f9a79b1a0ae3cf}} 
+\index{Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}!closed@{closed}}
+\index{closed@{closed}!Final Software.gcp\_stt.MicrophoneStream@{Final Software.gcp\_stt.MicrophoneStream}}
+\subsubsection{closed}
+{\footnotesize\ttfamily Final Software.\+gcp\+\_\+stt.\+Microphone\+Stream.\+closed}
+
+
+
+Definition at line 20 of file gcp\+\_\+stt.\+py.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+L\+I\+U181/\+Desktop/\+Final Software/\textbf{ gcp\+\_\+stt.\+py}\end{DoxyCompactItemize}

@@ -1,0 +1,794 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#a621e69939040744a28681fbb7dfecfe2"><param name="Name" value="__del__"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a40c1f1194a6e56aaf19826d9ca4b5c55"><param name="Name" value="__enter__"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#ab0a39b62625fab017defd3477f3b1aff"><param name="Name" value="__exit__"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a3fd2d755da472a95676667d6db7340eb"><param name="Name" value="__init__"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a3fd2d755da472a95676667d6db7340eb"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#a636e4a600ff29f055030f4282d6b4976"><param name="Name" value="__init__"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a45211903b4f4b62ac9d10b4e902ec94d"><param name="Name" value="assistant_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a8e87cb2b6488e5f929c41dd360443fac"><param name="Name" value="assistant_status_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a8a18508a5c6d6e4299adb3279a581708"><param name="Name" value="bt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a8a18508a5c6d6e4299adb3279a581708"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a8a18508a5c6d6e4299adb3279a581708"><param name="Name" value="bt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="bt__setup_8py.html#a632c708d6bd7762526a49799611b26be"><param name="Name" value="bt_setup.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a91e4208bc1a3ce89e59bd2200ece6d62"><param name="Name" value="centralwidget"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a5f693e17e215cfc968f9a79b1a0ae3cf"><param name="Name" value="closed"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__control.html#a88955928da31114a4e75b97f0eb9a27d"><param name="Name" value="control_equipment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__control.html#a88955928da31114a4e75b97f0eb9a27d"><param name="Name" value="Final Software::lm_control"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__control.html#a88955928da31114a4e75b97f0eb9a27d"><param name="Name" value="control_equipment"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1timer.html#a67d37f2aef1503091d1fb99e17ce92bb"><param name="Name" value="control_timer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1timer.html#a67d37f2aef1503091d1fb99e17ce92bb"><param name="Name" value="Final Software::timer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1timer.html#a67d37f2aef1503091d1fb99e17ce92bb"><param name="Name" value="control_timer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ad7585397d38f7d5597ff67a21d00be13"><param name="Name" value="conv_hist"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ad7585397d38f7d5597ff67a21d00be13"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad4ba041c6f0a4aac1336b9febe9675f5"><param name="Name" value="conv_hist"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad4ba041c6f0a4aac1336b9febe9675f5"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ad7585397d38f7d5597ff67a21d00be13"><param name="Name" value="conv_hist"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a5ba6c2c1cd85b5e98fb9ef596a1a299c"><param name="Name" value="conv_hist_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a0e55dedfa3eddf70b235e097cc43d7fb"><param name="Name" value="csiro_logo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a71ccf65c0ec1f911eb265e3d1cb39274"><param name="Name" value="daemon"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a71ccf65c0ec1f911eb265e3d1cb39274"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a71ccf65c0ec1f911eb265e3d1cb39274"><param name="Name" value="daemon"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a1a58277a90ed2e7295caa4ae6acf23de"><param name="Name" value="detect_intent_stream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a1a58277a90ed2e7295caa4ae6acf23de"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a1a58277a90ed2e7295caa4ae6acf23de"><param name="Name" value="detect_intent_stream"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#aeaf5cb423d3cf627b18cbc074eb22348"><param name="Name" value="detect_triggerword_spectrum"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#aeaf5cb423d3cf627b18cbc074eb22348"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#aeaf5cb423d3cf627b18cbc074eb22348"><param name="Name" value="detect_triggerword_spectrum"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a43daac36be0a5bc88b2d2cca216b2dad"><param name="Name" value="detect_twd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a43daac36be0a5bc88b2d2cca216b2dad"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a43daac36be0a5bc88b2d2cca216b2dad"><param name="Name" value="detect_twd"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acdc2a17be3e028cb8e22c029cf8d0f0a"><param name="Name" value="exit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acdc2a17be3e028cb8e22c029cf8d0f0a"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acdc2a17be3e028cb8e22c029cf8d0f0a"><param name="Name" value="exit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software.html"><param name="Name" value="Final Software"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1bt__setup.html"><param name="Name" value="Final Software::bt_setup"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1bt__setup.html#a632c708d6bd7762526a49799611b26be"><param name="Name" value="Final Software::bt_setup"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a1a58277a90ed2e7295caa4ae6acf23de"><param name="Name" value="detect_intent_stream"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a8b7d0fe1f8f0d9b1d8d81ec21f74015a"><param name="Name" value="intent_queue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#aca077f7dada1e4a915b5cc26dcc24163"><param name="Name" value="speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a2010572c811f973f2529c4c0164d93e7"><param name="Name" value="start_dialogflow_agent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#ac2ec9b3646a31448b85165f453dd4507"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html"><param name="Name" value="Final Software::gcp_stt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a40c1f1194a6e56aaf19826d9ca4b5c55"><param name="Name" value="__enter__"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#ab0a39b62625fab017defd3477f3b1aff"><param name="Name" value="__exit__"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a3fd2d755da472a95676667d6db7340eb"><param name="Name" value="__init__"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#a5f693e17e215cfc968f9a79b1a0ae3cf"><param name="Name" value="closed"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#aa199194eedb8f0e47b1a5bc088518df3"><param name="Name" value="Final Software::gcp_stt::MicrophoneStream"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html"><param name="Name" value="Final Software::gcp_stt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#aea2255a6e43ca4fce106e4a000da7df9"><param name="Name" value="listen_print_loop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#abff36f666612ca7f089706fe2987310f"><param name="Name" value="Final Software::gcp_stt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__control.html"><param name="Name" value="Final Software::lm_control"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__control.html#a88955928da31114a4e75b97f0eb9a27d"><param name="Name" value="Final Software::lm_control"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__status.html"><param name="Name" value="Final Software::lm_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__status.html#abdafca75d62b21154039b440a3d7d0d5"><param name="Name" value="Final Software::lm_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a45211903b4f4b62ac9d10b4e902ec94d"><param name="Name" value="assistant_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a8e87cb2b6488e5f929c41dd360443fac"><param name="Name" value="assistant_status_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a91e4208bc1a3ce89e59bd2200ece6d62"><param name="Name" value="centralwidget"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad4ba041c6f0a4aac1336b9febe9675f5"><param name="Name" value="conv_hist"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a5ba6c2c1cd85b5e98fb9ef596a1a299c"><param name="Name" value="conv_hist_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a0e55dedfa3eddf70b235e097cc43d7fb"><param name="Name" value="csiro_logo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ac955b41c75c2bb650003b70b69557898"><param name="Name" value="get_thread"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a75cdbf1e4ef8eac6a0a514240d8e3bbb"><param name="Name" value="lcd"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7facb390bfdde6e50171760891999d7e"><param name="Name" value="LED_LM1"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a4ed4ffc08beb34992b7b2ad6234ff444"><param name="Name" value="LED_LM2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7b3372c0dcc09a889fdf8ee85bf53393"><param name="Name" value="LED_LM3"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#af30edd7fdc8888704a360a8e848b8874"><param name="Name" value="LED_LM4"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7a4d369d1c503ce13716126a76a0dff3"><param name="Name" value="LED_status1"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a1684f1e159a2f4a67912d29ad1e2006a"><param name="Name" value="LED_status2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a9569225c498e4ca7d41ee8807a2119df"><param name="Name" value="LM_Status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad2c01da8906a71bfdffe2d04db394f6e"><param name="Name" value="lm_status_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a2202a515e48a63cea8fe5f8d1009df57"><param name="Name" value="menubar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#aea9258b6c649c2c40fdf963bac6c82fd"><param name="Name" value="mic_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a510c645b347e6debddb2a11fc5c8776f"><param name="Name" value="mic_status_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a959def691e8e14644981d0fe89c5b305"><param name="Name" value="recognised_command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a9be265fd6362ec4c0d8e83008b0b9d59"><param name="Name" value="recognised_command_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ab29399a0a14298ddd6f88aad209ad7d5"><param name="Name" value="retranslateUi"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ab54dd5d99a5e218106c9dd0c1c677eeb"><param name="Name" value="scroll_area"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a529eac74bc2c02fb9faf224d64bd0a51"><param name="Name" value="setupUi"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a69ee4a7ba4fa3498924c9b82379621e1"><param name="Name" value="statusbar"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a1029e7bbbe5f0ef946ed5a6b85a6c861"><param name="Name" value="timer_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a1f95f43564eae068521675d9f39bee6a"><param name="Name" value="transcript_scroll"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7970deaa9b9020b0ec363fbc87917895"><param name="Name" value="transcription"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a05dce69edab98b7bab3ed1084a0b1ab0"><param name="Name" value="transcription_label"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad768e063e8d23a9156b263c84346457c"><param name="Name" value="update_function"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a9a38cea36daac921aba46c3768252895"><param name="Name" value="update_info"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a3cbf7fba6fdbe740f5afc8145b12a7af"><param name="Name" value="voice_commands"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a5724752d0b9ed3299bf85b8e23e129d7"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html"><param name="Name" value="Final Software::main::updateThread"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html"><param name="Name" value="Final Software::main::updateThread"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#a621e69939040744a28681fbb7dfecfe2"><param name="Name" value="__del__"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html"><param name="Name" value="Final Software::main::updateThread"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#a636e4a600ff29f055030f4282d6b4976"><param name="Name" value="__init__"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html"><param name="Name" value="Final Software::main::updateThread"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#a4f358d599a7ed2dc805376bbe9f80187"><param name="Name" value="new_info"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#ac594a7ffc7639cd9a4da502c89d4f345"><param name="Name" value="Final Software::main::updateThread"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a8a18508a5c6d6e4299adb3279a581708"><param name="Name" value="bt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ad7585397d38f7d5597ff67a21d00be13"><param name="Name" value="conv_hist"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a71ccf65c0ec1f911eb265e3d1cb39274"><param name="Name" value="daemon"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acdc2a17be3e028cb8e22c029cf8d0f0a"><param name="Name" value="exit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab02941d60dfb322425d0e582a3b06e60"><param name="Name" value="gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a9c1419b4f82206c58c3501f98b6b6c4c"><param name="Name" value="gcp_stt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aca85a58df6cebc3158f940773971fad1"><param name="Name" value="gui_queue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a465287fc7c964ad13f276c987ed9b267"><param name="Name" value="gui_thread"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acab0c02364c5387f545cbfc24c08d9eb"><param name="Name" value="intent_to_function"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5a6292193a5db106444abcb424673c8b"><param name="Name" value="lab_machine_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a125dba0bc9b3cede6212dd1ddc18f48f"><param name="Name" value="lm_control"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab5f2d848c4fe56dc8013e381b607b4b6"><param name="Name" value="lm_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#af2b45fda7213f5e069736f058d419297"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#addfef40a6243858d219093b3474c791f"><param name="Name" value="query_result"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a59704bc746246dd2bd2daa83c3a7edbe"><param name="Name" value="quit_listen"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ae6396be7fc02f476d093cf14d35cb83d"><param name="Name" value="recognised_command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a76a44747d9c1773749e70585db319a39"><param name="Name" value="save_file"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aeaf2d623c66136417ef968c50b478cf2"><param name="Name" value="speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a2637f0f7c0c441c5f8a6b9d0b17626bc"><param name="Name" value="timer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a70cffb87a90cd27554ced7ee48cf6016"><param name="Name" value="trans_hist"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html"><param name="Name" value="Final Software::main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a48891a1f869283365295958fe55c9a16"><param name="Name" value="twd_detect"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5e8d9b2f2f5dc7b5892adf0e0e5b32ef"><param name="Name" value="Final Software::main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html"><param name="Name" value="Final Software::quit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html"><param name="Name" value="Final Software::quit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#adca13ff088184b272e5f49f2e6aabce0"><param name="Name" value="quit_detect_intent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html"><param name="Name" value="Final Software::quit"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a39e9447c2159f245b70a69d74617153a"><param name="Name" value="save_file"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a16b79fa5da18a56147fba0c78f19e5f9"><param name="Name" value="Final Software::quit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1save__file.html"><param name="Name" value="Final Software::save_file"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1save__file.html#ad2d2ca76a88063f3b2fe7eb85e247099"><param name="Name" value="Final Software::save_file"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1speech__engine.html"><param name="Name" value="Final Software::speech_engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1speech__engine.html#a8205fb6e25d0f882f071e6a0bb63bd3a"><param name="Name" value="Final Software::speech_engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a8069092b9e344f0dc8e835fba517c602"><param name="Name" value="get_wav_info"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a80a9b7080af7f78cf8fd151a6537b11f"><param name="Name" value="graph_spectrogram"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a33be328f54eaa05f085e08d6de195b39"><param name="Name" value="load_raw_audio"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a9eab5c6041fb25b79329c1f18af48309"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1timer.html"><param name="Name" value="Final Software::timer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1timer.html#a67d37f2aef1503091d1fb99e17ce92bb"><param name="Name" value="Final Software::timer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#aeaf5cb423d3cf627b18cbc074eb22348"><param name="Name" value="detect_triggerword_spectrum"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a43daac36be0a5bc88b2d2cca216b2dad"><param name="Name" value="detect_twd"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a092b21d1e6d75d07e319698e7f203005"><param name="Name" value="get_spectrogram"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a0b97fe91942ad341c2790b1e1c290512"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html"><param name="Name" value="Final Software::twd_imitate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html"><param name="Name" value="Final Software::twd_imitate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a8d4d1487f4721e41ad5fa50e8db99281"><param name="Name" value="speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a58d6a947e38e8c5621e1f2ea634027ab"><param name="Name" value="Final Software::twd_imitate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html"><param name="Name" value="gcp_dialogflow.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html#a1a58277a90ed2e7295caa4ae6acf23de"><param name="Name" value="detect_intent_stream"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html"><param name="Name" value="gcp_dialogflow.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html#a8b7d0fe1f8f0d9b1d8d81ec21f74015a"><param name="Name" value="intent_queue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html"><param name="Name" value="gcp_dialogflow.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html#aca077f7dada1e4a915b5cc26dcc24163"><param name="Name" value="speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html"><param name="Name" value="gcp_dialogflow.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html#a2010572c811f973f2529c4c0164d93e7"><param name="Name" value="start_dialogflow_agent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__dialogflow_8py.html#ac2ec9b3646a31448b85165f453dd4507"><param name="Name" value="gcp_dialogflow.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab02941d60dfb322425d0e582a3b06e60"><param name="Name" value="gcp_dialogflow"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab02941d60dfb322425d0e582a3b06e60"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab02941d60dfb322425d0e582a3b06e60"><param name="Name" value="gcp_dialogflow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__stt_8py.html"><param name="Name" value="gcp_stt.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__stt_8py.html#aea2255a6e43ca4fce106e4a000da7df9"><param name="Name" value="listen_print_loop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="gcp__stt_8py.html#abff36f666612ca7f089706fe2987310f"><param name="Name" value="gcp_stt.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a9c1419b4f82206c58c3501f98b6b6c4c"><param name="Name" value="gcp_stt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a9c1419b4f82206c58c3501f98b6b6c4c"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a9c1419b4f82206c58c3501f98b6b6c4c"><param name="Name" value="gcp_stt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html#aa199194eedb8f0e47b1a5bc088518df3"><param name="Name" value="generator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__status.html#abdafca75d62b21154039b440a3d7d0d5"><param name="Name" value="get_lm_status"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__status.html#abdafca75d62b21154039b440a3d7d0d5"><param name="Name" value="Final Software::lm_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1lm__status.html#abdafca75d62b21154039b440a3d7d0d5"><param name="Name" value="get_lm_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a092b21d1e6d75d07e319698e7f203005"><param name="Name" value="get_spectrogram"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a092b21d1e6d75d07e319698e7f203005"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a092b21d1e6d75d07e319698e7f203005"><param name="Name" value="get_spectrogram"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ac955b41c75c2bb650003b70b69557898"><param name="Name" value="get_thread"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a8069092b9e344f0dc8e835fba517c602"><param name="Name" value="get_wav_info"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a8069092b9e344f0dc8e835fba517c602"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a8069092b9e344f0dc8e835fba517c602"><param name="Name" value="get_wav_info"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a80a9b7080af7f78cf8fd151a6537b11f"><param name="Name" value="graph_spectrogram"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a80a9b7080af7f78cf8fd151a6537b11f"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a80a9b7080af7f78cf8fd151a6537b11f"><param name="Name" value="graph_spectrogram"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aca85a58df6cebc3158f940773971fad1"><param name="Name" value="gui_queue"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aca85a58df6cebc3158f940773971fad1"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aca85a58df6cebc3158f940773971fad1"><param name="Name" value="gui_queue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a465287fc7c964ad13f276c987ed9b267"><param name="Name" value="gui_thread"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a465287fc7c964ad13f276c987ed9b267"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a465287fc7c964ad13f276c987ed9b267"><param name="Name" value="gui_thread"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a0b97fe91942ad341c2790b1e1c290512"><param name="Name" value="has_triggerword"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a0b97fe91942ad341c2790b1e1c290512"><param name="Name" value="Final Software::twd_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__engine.html#a0b97fe91942ad341c2790b1e1c290512"><param name="Name" value="has_triggerword"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a8b7d0fe1f8f0d9b1d8d81ec21f74015a"><param name="Name" value="intent_queue"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a8b7d0fe1f8f0d9b1d8d81ec21f74015a"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a8b7d0fe1f8f0d9b1d8d81ec21f74015a"><param name="Name" value="intent_queue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acab0c02364c5387f545cbfc24c08d9eb"><param name="Name" value="intent_to_function"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acab0c02364c5387f545cbfc24c08d9eb"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#acab0c02364c5387f545cbfc24c08d9eb"><param name="Name" value="intent_to_function"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5a6292193a5db106444abcb424673c8b"><param name="Name" value="lab_machine_status"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5a6292193a5db106444abcb424673c8b"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5a6292193a5db106444abcb424673c8b"><param name="Name" value="lab_machine_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a75cdbf1e4ef8eac6a0a514240d8e3bbb"><param name="Name" value="lcd"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7facb390bfdde6e50171760891999d7e"><param name="Name" value="LED_LM1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a4ed4ffc08beb34992b7b2ad6234ff444"><param name="Name" value="LED_LM2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7b3372c0dcc09a889fdf8ee85bf53393"><param name="Name" value="LED_LM3"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#af30edd7fdc8888704a360a8e848b8874"><param name="Name" value="LED_LM4"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7a4d369d1c503ce13716126a76a0dff3"><param name="Name" value="LED_status1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a1684f1e159a2f4a67912d29ad1e2006a"><param name="Name" value="LED_status2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#aea2255a6e43ca4fce106e4a000da7df9"><param name="Name" value="listen_print_loop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#aea2255a6e43ca4fce106e4a000da7df9"><param name="Name" value="Final Software::gcp_stt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#aea2255a6e43ca4fce106e4a000da7df9"><param name="Name" value="listen_print_loop"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="lm__control_8py.html#a88955928da31114a4e75b97f0eb9a27d"><param name="Name" value="lm_control.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a125dba0bc9b3cede6212dd1ddc18f48f"><param name="Name" value="lm_control"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a125dba0bc9b3cede6212dd1ddc18f48f"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a125dba0bc9b3cede6212dd1ddc18f48f"><param name="Name" value="lm_control"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="lm__status_8py.html#abdafca75d62b21154039b440a3d7d0d5"><param name="Name" value="lm_status.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab5f2d848c4fe56dc8013e381b607b4b6"><param name="Name" value="lm_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a9569225c498e4ca7d41ee8807a2119df"><param name="Name" value="LM_Status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ab5f2d848c4fe56dc8013e381b607b4b6"><param name="Name" value="lm_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad2c01da8906a71bfdffe2d04db394f6e"><param name="Name" value="lm_status_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a33be328f54eaa05f085e08d6de195b39"><param name="Name" value="load_raw_audio"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a33be328f54eaa05f085e08d6de195b39"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a33be328f54eaa05f085e08d6de195b39"><param name="Name" value="load_raw_audio"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a8a18508a5c6d6e4299adb3279a581708"><param name="Name" value="bt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#ad7585397d38f7d5597ff67a21d00be13"><param name="Name" value="conv_hist"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a71ccf65c0ec1f911eb265e3d1cb39274"><param name="Name" value="daemon"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#acdc2a17be3e028cb8e22c029cf8d0f0a"><param name="Name" value="exit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#ab02941d60dfb322425d0e582a3b06e60"><param name="Name" value="gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a9c1419b4f82206c58c3501f98b6b6c4c"><param name="Name" value="gcp_stt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#aca85a58df6cebc3158f940773971fad1"><param name="Name" value="gui_queue"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a465287fc7c964ad13f276c987ed9b267"><param name="Name" value="gui_thread"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#acab0c02364c5387f545cbfc24c08d9eb"><param name="Name" value="intent_to_function"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a5a6292193a5db106444abcb424673c8b"><param name="Name" value="lab_machine_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a125dba0bc9b3cede6212dd1ddc18f48f"><param name="Name" value="lm_control"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#ab5f2d848c4fe56dc8013e381b607b4b6"><param name="Name" value="lm_status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#af2b45fda7213f5e069736f058d419297"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#addfef40a6243858d219093b3474c791f"><param name="Name" value="query_result"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a59704bc746246dd2bd2daa83c3a7edbe"><param name="Name" value="quit_listen"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#ae6396be7fc02f476d093cf14d35cb83d"><param name="Name" value="recognised_command"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a76a44747d9c1773749e70585db319a39"><param name="Name" value="save_file"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#aeaf2d623c66136417ef968c50b478cf2"><param name="Name" value="speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a2637f0f7c0c441c5f8a6b9d0b17626bc"><param name="Name" value="timer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a70cffb87a90cd27554ced7ee48cf6016"><param name="Name" value="trans_hist"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html"><param name="Name" value="main.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a48891a1f869283365295958fe55c9a16"><param name="Name" value="twd_detect"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8py.html#a5e8d9b2f2f5dc7b5892adf0e0e5b32ef"><param name="Name" value="main.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#af2b45fda7213f5e069736f058d419297"><param name="Name" value="main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#af2b45fda7213f5e069736f058d419297"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#af2b45fda7213f5e069736f058d419297"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a9eab5c6041fb25b79329c1f18af48309"><param name="Name" value="match_target_amplitude"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a9eab5c6041fb25b79329c1f18af48309"><param name="Name" value="Final Software::td_utils"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1td__utils.html#a9eab5c6041fb25b79329c1f18af48309"><param name="Name" value="match_target_amplitude"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a2202a515e48a63cea8fe5f8d1009df57"><param name="Name" value="menubar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#aea9258b6c649c2c40fdf963bac6c82fd"><param name="Name" value="mic_status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a510c645b347e6debddb2a11fc5c8776f"><param name="Name" value="mic_status_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#a4f358d599a7ed2dc805376bbe9f80187"><param name="Name" value="new_info"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#addfef40a6243858d219093b3474c791f"><param name="Name" value="query_result"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#addfef40a6243858d219093b3474c791f"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#addfef40a6243858d219093b3474c791f"><param name="Name" value="query_result"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="quit_8py.html"><param name="Name" value="quit.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="quit_8py.html#adca13ff088184b272e5f49f2e6aabce0"><param name="Name" value="quit_detect_intent"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="quit_8py.html"><param name="Name" value="quit.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="quit_8py.html#a39e9447c2159f245b70a69d74617153a"><param name="Name" value="save_file"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="quit_8py.html#a16b79fa5da18a56147fba0c78f19e5f9"><param name="Name" value="quit.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#adca13ff088184b272e5f49f2e6aabce0"><param name="Name" value="quit_detect_intent"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#adca13ff088184b272e5f49f2e6aabce0"><param name="Name" value="Final Software::quit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#adca13ff088184b272e5f49f2e6aabce0"><param name="Name" value="quit_detect_intent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a59704bc746246dd2bd2daa83c3a7edbe"><param name="Name" value="quit_listen"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a59704bc746246dd2bd2daa83c3a7edbe"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a59704bc746246dd2bd2daa83c3a7edbe"><param name="Name" value="quit_listen"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ae6396be7fc02f476d093cf14d35cb83d"><param name="Name" value="recognised_command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ae6396be7fc02f476d093cf14d35cb83d"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a959def691e8e14644981d0fe89c5b305"><param name="Name" value="recognised_command"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a959def691e8e14644981d0fe89c5b305"><param name="Name" value="Final Software::main::Ui_MainWindow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#ae6396be7fc02f476d093cf14d35cb83d"><param name="Name" value="recognised_command"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a9be265fd6362ec4c0d8e83008b0b9d59"><param name="Name" value="recognised_command_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ab29399a0a14298ddd6f88aad209ad7d5"><param name="Name" value="retranslateUi"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1update_thread.html#ac594a7ffc7639cd9a4da502c89d4f345"><param name="Name" value="run"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="save__file_8py.html#ad2d2ca76a88063f3b2fe7eb85e247099"><param name="Name" value="save_file.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a76a44747d9c1773749e70585db319a39"><param name="Name" value="save_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a76a44747d9c1773749e70585db319a39"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a39e9447c2159f245b70a69d74617153a"><param name="Name" value="save_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a39e9447c2159f245b70a69d74617153a"><param name="Name" value="Final Software::quit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1save__file.html#ad2d2ca76a88063f3b2fe7eb85e247099"><param name="Name" value="save_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1save__file.html#ad2d2ca76a88063f3b2fe7eb85e247099"><param name="Name" value="Final Software::save_file"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a76a44747d9c1773749e70585db319a39"><param name="Name" value="save_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a76a44747d9c1773749e70585db319a39"><param name="Name" value="main.py"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a39e9447c2159f245b70a69d74617153a"><param name="Name" value="save_file"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a39e9447c2159f245b70a69d74617153a"><param name="Name" value="quit.py"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1save__file.html#ad2d2ca76a88063f3b2fe7eb85e247099"><param name="Name" value="save_file"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ab54dd5d99a5e218106c9dd0c1c677eeb"><param name="Name" value="scroll_area"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1bt__setup.html#a632c708d6bd7762526a49799611b26be"><param name="Name" value="setup_bt"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1bt__setup.html#a632c708d6bd7762526a49799611b26be"><param name="Name" value="bt_setup.py"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1bt__setup.html#a632c708d6bd7762526a49799611b26be"><param name="Name" value="setup_bt"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a529eac74bc2c02fb9faf224d64bd0a51"><param name="Name" value="setupUi"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1speech__engine.html#a8205fb6e25d0f882f071e6a0bb63bd3a"><param name="Name" value="speak"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1speech__engine.html#a8205fb6e25d0f882f071e6a0bb63bd3a"><param name="Name" value="Final Software::speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1speech__engine.html#a8205fb6e25d0f882f071e6a0bb63bd3a"><param name="Name" value="speak"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="speech__engine_8py.html#a8205fb6e25d0f882f071e6a0bb63bd3a"><param name="Name" value="speech_engine.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#aca077f7dada1e4a915b5cc26dcc24163"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#aca077f7dada1e4a915b5cc26dcc24163"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aeaf2d623c66136417ef968c50b478cf2"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aeaf2d623c66136417ef968c50b478cf2"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a16b79fa5da18a56147fba0c78f19e5f9"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a16b79fa5da18a56147fba0c78f19e5f9"><param name="Name" value="Final Software::quit"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a8d4d1487f4721e41ad5fa50e8db99281"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a8d4d1487f4721e41ad5fa50e8db99281"><param name="Name" value="Final Software::twd_imitate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#aca077f7dada1e4a915b5cc26dcc24163"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#aca077f7dada1e4a915b5cc26dcc24163"><param name="Name" value="gcp_dialogflow.py"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aeaf2d623c66136417ef968c50b478cf2"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#aeaf2d623c66136417ef968c50b478cf2"><param name="Name" value="main.py"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a16b79fa5da18a56147fba0c78f19e5f9"><param name="Name" value="speech_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1quit.html#a16b79fa5da18a56147fba0c78f19e5f9"><param name="Name" value="quit.py"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a8d4d1487f4721e41ad5fa50e8db99281"><param name="Name" value="speech_engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a2010572c811f973f2529c4c0164d93e7"><param name="Name" value="start_dialogflow_agent"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a2010572c811f973f2529c4c0164d93e7"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#a2010572c811f973f2529c4c0164d93e7"><param name="Name" value="start_dialogflow_agent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a69ee4a7ba4fa3498924c9b82379621e1"><param name="Name" value="statusbar"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#abff36f666612ca7f089706fe2987310f"><param name="Name" value="streaming_transcribe"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#abff36f666612ca7f089706fe2987310f"><param name="Name" value="Final Software::gcp_stt"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__stt.html#abff36f666612ca7f089706fe2987310f"><param name="Name" value="streaming_transcribe"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#ac2ec9b3646a31448b85165f453dd4507"><param name="Name" value="stt_callback"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#ac2ec9b3646a31448b85165f453dd4507"><param name="Name" value="Final Software::gcp_dialogflow"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1gcp__dialogflow.html#ac2ec9b3646a31448b85165f453dd4507"><param name="Name" value="stt_callback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html"><param name="Name" value="td_utils.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html#a8069092b9e344f0dc8e835fba517c602"><param name="Name" value="get_wav_info"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html"><param name="Name" value="td_utils.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html#a80a9b7080af7f78cf8fd151a6537b11f"><param name="Name" value="graph_spectrogram"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html"><param name="Name" value="td_utils.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html#a33be328f54eaa05f085e08d6de195b39"><param name="Name" value="load_raw_audio"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="td__utils_8py.html#a9eab5c6041fb25b79329c1f18af48309"><param name="Name" value="td_utils.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="timer_8py.html#a67d37f2aef1503091d1fb99e17ce92bb"><param name="Name" value="timer.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a2637f0f7c0c441c5f8a6b9d0b17626bc"><param name="Name" value="timer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a2637f0f7c0c441c5f8a6b9d0b17626bc"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a2637f0f7c0c441c5f8a6b9d0b17626bc"><param name="Name" value="timer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a1029e7bbbe5f0ef946ed5a6b85a6c861"><param name="Name" value="timer_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a70cffb87a90cd27554ced7ee48cf6016"><param name="Name" value="trans_hist"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a70cffb87a90cd27554ced7ee48cf6016"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a70cffb87a90cd27554ced7ee48cf6016"><param name="Name" value="trans_hist"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a1f95f43564eae068521675d9f39bee6a"><param name="Name" value="transcript_scroll"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a7970deaa9b9020b0ec363fbc87917895"><param name="Name" value="transcription"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a05dce69edab98b7bab3ed1084a0b1ab0"><param name="Name" value="transcription_label"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a48891a1f869283365295958fe55c9a16"><param name="Name" value="twd_detect"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a48891a1f869283365295958fe55c9a16"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a48891a1f869283365295958fe55c9a16"><param name="Name" value="twd_detect"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html"><param name="Name" value="twd_engine.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html#aeaf5cb423d3cf627b18cbc074eb22348"><param name="Name" value="detect_triggerword_spectrum"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html"><param name="Name" value="twd_engine.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html#a43daac36be0a5bc88b2d2cca216b2dad"><param name="Name" value="detect_twd"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html"><param name="Name" value="twd_engine.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html#a092b21d1e6d75d07e319698e7f203005"><param name="Name" value="get_spectrogram"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__engine_8py.html#a0b97fe91942ad341c2790b1e1c290512"><param name="Name" value="twd_engine.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5e8d9b2f2f5dc7b5892adf0e0e5b32ef"><param name="Name" value="twd_engine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5e8d9b2f2f5dc7b5892adf0e0e5b32ef"><param name="Name" value="Final Software::main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1main.html#a5e8d9b2f2f5dc7b5892adf0e0e5b32ef"><param name="Name" value="twd_engine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__imitate_8py.html"><param name="Name" value="twd_imitate.py"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__imitate_8py.html#a8d4d1487f4721e41ad5fa50e8db99281"><param name="Name" value="speech_engine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="twd__imitate_8py.html#a58d6a947e38e8c5621e1f2ea634027ab"><param name="Name" value="twd_imitate.py"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a58d6a947e38e8c5621e1f2ea634027ab"><param name="Name" value="twd_imitate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a58d6a947e38e8c5621e1f2ea634027ab"><param name="Name" value="Final Software::twd_imitate"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_final_01_software_1_1twd__imitate.html#a58d6a947e38e8c5621e1f2ea634027ab"><param name="Name" value="twd_imitate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#ad768e063e8d23a9156b263c84346457c"><param name="Name" value="update_function"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a9a38cea36daac921aba46c3768252895"><param name="Name" value="update_info"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a3cbf7fba6fdbe740f5afc8145b12a7af"><param name="Name" value="voice_commands"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_final_01_software_1_1main_1_1_ui___main_window.html#a5724752d0b9ed3299bf85b8e23e129d7"><param name="Name" value="voice_commands_label"></OBJECT>
+</UL>
+</BODY>
+</HTML>

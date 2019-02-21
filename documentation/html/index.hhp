@@ -1,0 +1,76 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=VLAS_AGENT
+
+[WINDOWS]
+main="VLAS_AGENT","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+____init_____8py.html
+bt__setup_8py.html
+gcp__dialogflow_8py.html
+gcp__stt_8py.html
+lm__control_8py.html
+lm__status_8py.html
+main_8py.html
+quit_8py.html
+save__file_8py.html
+speech__engine_8py.html
+td__utils_8py.html
+timer_8py.html
+twd__engine_8py.html
+twd__imitate_8py.html
+namespace_final_01_software.html
+namespace_final_01_software_1_1bt__setup.html
+namespace_final_01_software_1_1gcp__dialogflow.html
+namespace_final_01_software_1_1gcp__stt.html
+class_final_01_software_1_1gcp__stt_1_1_microphone_stream.html
+class_final_01_software_1_1gcp__stt_1_1_microphone_stream-members.html
+namespace_final_01_software_1_1lm__control.html
+namespace_final_01_software_1_1lm__status.html
+namespace_final_01_software_1_1main.html
+class_final_01_software_1_1main_1_1_ui___main_window.html
+class_final_01_software_1_1main_1_1_ui___main_window-members.html
+class_final_01_software_1_1main_1_1update_thread.html
+class_final_01_software_1_1main_1_1update_thread-members.html
+namespace_final_01_software_1_1quit.html
+namespace_final_01_software_1_1save__file.html
+namespace_final_01_software_1_1speech__engine.html
+namespace_final_01_software_1_1td__utils.html
+namespace_final_01_software_1_1timer.html
+namespace_final_01_software_1_1twd__engine.html
+namespace_final_01_software_1_1twd__imitate.html
+index.html
+namespaces.html
+namespacemembers.html
+namespacemembers_func.html
+namespacemembers_vars.html
+annotated.html
+classes.html
+hierarchy.html
+functions.html
+functions_func.html
+functions_vars.html
+files.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+class_final_01_software_1_1gcp__stt_1_1_microphone_stream.png
+class_final_01_software_1_1main_1_1_ui___main_window.png
+class_final_01_software_1_1main_1_1update_thread.png

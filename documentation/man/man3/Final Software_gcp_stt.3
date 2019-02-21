@@ -1,0 +1,56 @@
+.TH "Final Software.gcp_stt" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.gcp_stt
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBMicrophoneStream\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBlisten_print_loop\fP (responses, queue)"
+.br
+.RI "Obtain the HTTP response from Google Speech API and iterate through responses until user decides to exit the system\&. "
+.ti -1c
+.RI "def \fBstreaming_transcribe\fP (queue)"
+.br
+.RI "Function that performs speech-to-text on streaming audio input\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.gcp_stt\&.listen_print_loop ( responses,  queue)"
+
+.PP
+Obtain the HTTP response from Google Speech API and iterate through responses until user decides to exit the system\&. Prints out the intermediate transcripts to GUI 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIresponses\fP list of HTTP responses from Google Speech API after streaming audio chunks 
+.br
+\fIqueue\fP gui_queue which updates widgets on the GUI 
+.RE
+.PP
+
+.SS "def Final Software\&.gcp_stt\&.streaming_transcribe ( queue)"
+
+.PP
+Function that performs speech-to-text on streaming audio input\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIqueue\fP gui_queue which will be updated 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

@@ -1,0 +1,100 @@
+\section{Final Software.\+td\+\_\+utils Namespace Reference}
+\label{namespace_final_01_software_1_1td__utils}\index{Final Software.td\_utils@{Final Software.td\_utils}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \textbf{ graph\+\_\+spectrogram} (wav\+\_\+file)
+\begin{DoxyCompactList}\small\item\em Calculate and plot spectrogram of a wav audio file. \end{DoxyCompactList}\item 
+def \textbf{ get\+\_\+wav\+\_\+info} (wav\+\_\+file)
+\begin{DoxyCompactList}\small\item\em Return sampling rate and data read from wav file. \end{DoxyCompactList}\item 
+def \textbf{ match\+\_\+target\+\_\+amplitude} (sound, target\+\_\+d\+B\+FS)
+\begin{DoxyCompactList}\small\item\em Function to standardise the volume of audio clips. \end{DoxyCompactList}\item 
+def \textbf{ load\+\_\+raw\+\_\+audio} ()
+\begin{DoxyCompactList}\small\item\em Function to load raw audio files for speech synthesis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\label{namespace_final_01_software_1_1td__utils_a8069092b9e344f0dc8e835fba517c602}} 
+\index{Final Software.td\_utils@{Final Software.td\_utils}!get\_wav\_info@{get\_wav\_info}}
+\index{get\_wav\_info@{get\_wav\_info}!Final Software.td\_utils@{Final Software.td\_utils}}
+\subsubsection{get\_wav\_info()}
+{\footnotesize\ttfamily def Final Software.\+td\+\_\+utils.\+get\+\_\+wav\+\_\+info (\begin{DoxyParamCaption}\item[{}]{wav\+\_\+file }\end{DoxyParamCaption})}
+
+
+
+Return sampling rate and data read from wav file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wav\+\_\+file} & file path to wav file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+rate\+: sampling rate of wav file 
+
+data\+: data read from wav file 
+\end{DoxyReturn}
+
+
+Definition at line 23 of file td\+\_\+utils.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1td__utils_a80a9b7080af7f78cf8fd151a6537b11f}} 
+\index{Final Software.td\_utils@{Final Software.td\_utils}!graph\_spectrogram@{graph\_spectrogram}}
+\index{graph\_spectrogram@{graph\_spectrogram}!Final Software.td\_utils@{Final Software.td\_utils}}
+\subsubsection{graph\_spectrogram()}
+{\footnotesize\ttfamily def Final Software.\+td\+\_\+utils.\+graph\+\_\+spectrogram (\begin{DoxyParamCaption}\item[{}]{wav\+\_\+file }\end{DoxyParamCaption})}
+
+
+
+Calculate and plot spectrogram of a wav audio file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wav\+\_\+file} & file\+\_\+path to wav file to be transformed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+frequency spectrogram file 
+\end{DoxyReturn}
+
+
+Definition at line 6 of file td\+\_\+utils.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1td__utils_a33be328f54eaa05f085e08d6de195b39}} 
+\index{Final Software.td\_utils@{Final Software.td\_utils}!load\_raw\_audio@{load\_raw\_audio}}
+\index{load\_raw\_audio@{load\_raw\_audio}!Final Software.td\_utils@{Final Software.td\_utils}}
+\subsubsection{load\_raw\_audio()}
+{\footnotesize\ttfamily def Final Software.\+td\+\_\+utils.\+load\+\_\+raw\+\_\+audio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to load raw audio files for speech synthesis. 
+
+
+
+Definition at line 44 of file td\+\_\+utils.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1td__utils_a9eab5c6041fb25b79329c1f18af48309}} 
+\index{Final Software.td\_utils@{Final Software.td\_utils}!match\_target\_amplitude@{match\_target\_amplitude}}
+\index{match\_target\_amplitude@{match\_target\_amplitude}!Final Software.td\_utils@{Final Software.td\_utils}}
+\subsubsection{match\_target\_amplitude()}
+{\footnotesize\ttfamily def Final Software.\+td\+\_\+utils.\+match\+\_\+target\+\_\+amplitude (\begin{DoxyParamCaption}\item[{}]{sound,  }\item[{}]{target\+\_\+d\+B\+FS }\end{DoxyParamCaption})}
+
+
+
+Function to standardise the volume of audio clips. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sound} & original audio clip \\
+\hline
+{\em target\+\_\+d\+B\+FS} & target amplitude in decibels \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sound file after standardisation 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file td\+\_\+utils.\+py.
+

@@ -1,0 +1,74 @@
+.TH "Final Software.main.updateThread" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.main.updateThread
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits QThread\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self)"
+.br
+.ti -1c
+.RI "def \fB__del__\fP (self)"
+.br
+.ti -1c
+.RI "def \fBrun\fP (self)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBnew_info\fP = pyqtSignal(dict)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+.nf
+Documentation for the updateThread class
+This class creates a QThread which continuously reads from a queue structure
+and emits a signal when new item is read from the queue
+.fi
+.PP
+ 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def Final Software\&.main\&.updateThread\&.__init__ ( self)"
+
+.PP
+.nf
+The constructor
+
+.fi
+.PP
+ 
+.SS "def Final Software\&.main\&.updateThread\&.__del__ ( self)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "def Final Software\&.main\&.updateThread\&.run ( self)"
+
+.PP
+.nf
+Run qthread to continuously polls the gui_queue for new info
+In another function, fill the queue (threaded)
+
+.fi
+.PP
+ 
+.SH "Member Data Documentation"
+.PP 
+.SS "Final Software\&.main\&.updateThread\&.new_info = pyqtSignal(dict)\fC [static]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

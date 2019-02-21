@@ -1,0 +1,390 @@
+\section{Final Software.\+main Namespace Reference}
+\label{namespace_final_01_software_1_1main}\index{Final Software.main@{Final Software.main}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ Ui\+\_\+\+Main\+Window}
+\item 
+class \textbf{ update\+Thread}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \textbf{ main} ()
+\begin{DoxyCompactList}\small\item\em Initialise the UI, initialise Q\+Threads. \end{DoxyCompactList}\item 
+def \textbf{ intent\+\_\+to\+\_\+function} (detected\+\_\+intent, params)
+\begin{DoxyCompactList}\small\item\em Function that converts detected intent into actions and function calls. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ bt} = importlib.\+import\+\_\+module(\textquotesingle{}bt\+\_\+setup\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported bt module \end{DoxyCompactList}\item 
+\textbf{ gcp\+\_\+dialogflow} = importlib.\+import\+\_\+module(\textquotesingle{}gcp\+\_\+dialogflow\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{gcp\+\_\+dialogflow}{p.}{namespace_final_01_software_1_1gcp__dialogflow} module \end{DoxyCompactList}\item 
+\textbf{ gcp\+\_\+stt} = importlib.\+import\+\_\+module(\textquotesingle{}gcp\+\_\+stt\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{gcp\+\_\+stt}{p.}{namespace_final_01_software_1_1gcp__stt} module \end{DoxyCompactList}\item 
+\textbf{ lm\+\_\+control} = importlib.\+import\+\_\+module(\textquotesingle{}lm\+\_\+control\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{lm\+\_\+control}{p.}{namespace_final_01_software_1_1lm__control} module \end{DoxyCompactList}\item 
+\textbf{ timer} = importlib.\+import\+\_\+module(\textquotesingle{}timer\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported timer module \end{DoxyCompactList}\item 
+\textbf{ twd\+\_\+detect} = importlib.\+import\+\_\+module(\textquotesingle{}twd\+\_\+imitate\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported twd\+\_\+detect module \end{DoxyCompactList}\item 
+\textbf{ twd\+\_\+engine} = improtlib.\+import\+\_\+module(\textquotesingle{}twd\+\_\+engine\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{twd\+\_\+engine}{p.}{namespace_final_01_software_1_1twd__engine} module \end{DoxyCompactList}\item 
+\textbf{ lm\+\_\+status} = importlib.\+import\+\_\+module(\textquotesingle{}lm\+\_\+status\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{lm\+\_\+status}{p.}{namespace_final_01_software_1_1lm__status} module \end{DoxyCompactList}\item 
+\textbf{ save\+\_\+file} = importlib.\+import\+\_\+module(\textquotesingle{}save\+\_\+file\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{save\+\_\+file}{p.}{namespace_final_01_software_1_1save__file} module \end{DoxyCompactList}\item 
+\textbf{ quit\+\_\+listen} = importlib.\+import\+\_\+module(\textquotesingle{}quit\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported quit module \end{DoxyCompactList}\item 
+\textbf{ speech\+\_\+engine} = importlib.\+import\+\_\+module(\textquotesingle{}speech\+\_\+engine\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{speech\+\_\+engine}{p.}{namespace_final_01_software_1_1speech__engine} file \end{DoxyCompactList}\item 
+dictionary \textbf{ lab\+\_\+machine\+\_\+status}
+\begin{DoxyCompactList}\small\item\em dictionary to track status of lab machine \end{DoxyCompactList}\item 
+\textbf{ gui\+\_\+queue} = queue.\+Queue()
+\begin{DoxyCompactList}\small\item\em G\+UI queue used to communicate and update G\+Ui thread. \end{DoxyCompactList}\item 
+list \textbf{ conv\+\_\+hist} = [$\,$]
+\begin{DoxyCompactList}\small\item\em Log of conversation history. \end{DoxyCompactList}\item 
+string \textbf{ trans\+\_\+hist} = \char`\"{} \char`\"{}
+\begin{DoxyCompactList}\small\item\em Record of transcription history. \end{DoxyCompactList}\item 
+bool \textbf{ exit} = False
+\begin{DoxyCompactList}\small\item\em Boolean to indicate if system should exit. \end{DoxyCompactList}\item 
+\textbf{ gui\+\_\+thread} = threading.\+Thread(target=\textbf{ main})
+\begin{DoxyCompactList}\small\item\em Thread processing for maintaining and updating G\+UI. \end{DoxyCompactList}\item 
+\textbf{ daemon}
+\begin{DoxyCompactList}\small\item\em Daemon indicates gui thread will terminate when main thread terminates. \end{DoxyCompactList}\item 
+\textbf{ query\+\_\+result} = \textbf{ gcp\+\_\+dialogflow.\+start\+\_\+dialogflow\+\_\+agent}()
+\begin{DoxyCompactList}\small\item\em H\+T\+TP response from dialogflow agent. \end{DoxyCompactList}\item 
+\textbf{ recognised\+\_\+command} = query\+\_\+result.\+intent.\+display\+\_\+name
+\begin{DoxyCompactList}\small\item\em Command recognised by dialogflow agent. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\label{namespace_final_01_software_1_1main_acab0c02364c5387f545cbfc24c08d9eb}} 
+\index{Final Software.main@{Final Software.main}!intent\_to\_function@{intent\_to\_function}}
+\index{intent\_to\_function@{intent\_to\_function}!Final Software.main@{Final Software.main}}
+\subsubsection{intent\_to\_function()}
+{\footnotesize\ttfamily def Final Software.\+main.\+intent\+\_\+to\+\_\+function (\begin{DoxyParamCaption}\item[{}]{detected\+\_\+intent,  }\item[{}]{params }\end{DoxyParamCaption})}
+
+
+
+Function that converts detected intent into actions and function calls. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em detected\+\_\+intent} & the intent detected and returned by the dialogflow agent \\
+\hline
+{\em params} & the parameters detected along with the user intent \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 592 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_af2b45fda7213f5e069736f058d419297}} 
+\index{Final Software.main@{Final Software.main}!main@{main}}
+\index{main@{main}!Final Software.main@{Final Software.main}}
+\subsubsection{main()}
+{\footnotesize\ttfamily def Final Software.\+main.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialise the UI, initialise Q\+Threads. 
+
+
+
+Definition at line 579 of file main.\+py.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\label{namespace_final_01_software_1_1main_a8a18508a5c6d6e4299adb3279a581708}} 
+\index{Final Software.main@{Final Software.main}!bt@{bt}}
+\index{bt@{bt}!Final Software.main@{Final Software.main}}
+\subsubsection{bt}
+{\footnotesize\ttfamily Final Software.\+main.\+bt = importlib.\+import\+\_\+module(\textquotesingle{}bt\+\_\+setup\textquotesingle{})}
+
+
+
+imported bt module 
+
+
+
+Definition at line 25 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_ad7585397d38f7d5597ff67a21d00be13}} 
+\index{Final Software.main@{Final Software.main}!conv\_hist@{conv\_hist}}
+\index{conv\_hist@{conv\_hist}!Final Software.main@{Final Software.main}}
+\subsubsection{conv\_hist}
+{\footnotesize\ttfamily list Final Software.\+main.\+conv\+\_\+hist = [$\,$]}
+
+
+
+Log of conversation history. 
+
+
+
+Definition at line 57 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a71ccf65c0ec1f911eb265e3d1cb39274}} 
+\index{Final Software.main@{Final Software.main}!daemon@{daemon}}
+\index{daemon@{daemon}!Final Software.main@{Final Software.main}}
+\subsubsection{daemon}
+{\footnotesize\ttfamily Final Software.\+main.\+daemon}
+
+
+
+Daemon indicates gui thread will terminate when main thread terminates. 
+
+
+
+Definition at line 623 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_acdc2a17be3e028cb8e22c029cf8d0f0a}} 
+\index{Final Software.main@{Final Software.main}!exit@{exit}}
+\index{exit@{exit}!Final Software.main@{Final Software.main}}
+\subsubsection{exit}
+{\footnotesize\ttfamily bool Final Software.\+main.\+exit = False}
+
+
+
+Boolean to indicate if system should exit. 
+
+
+
+Definition at line 61 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_ab02941d60dfb322425d0e582a3b06e60}} 
+\index{Final Software.main@{Final Software.main}!gcp\_dialogflow@{gcp\_dialogflow}}
+\index{gcp\_dialogflow@{gcp\_dialogflow}!Final Software.main@{Final Software.main}}
+\subsubsection{gcp\_dialogflow}
+{\footnotesize\ttfamily Final Software.\+main.\+gcp\+\_\+dialogflow = importlib.\+import\+\_\+module(\textquotesingle{}gcp\+\_\+dialogflow\textquotesingle{})}
+
+
+
+imported \doxyref{gcp\+\_\+dialogflow}{p.}{namespace_final_01_software_1_1gcp__dialogflow} module 
+
+
+
+Definition at line 27 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a9c1419b4f82206c58c3501f98b6b6c4c}} 
+\index{Final Software.main@{Final Software.main}!gcp\_stt@{gcp\_stt}}
+\index{gcp\_stt@{gcp\_stt}!Final Software.main@{Final Software.main}}
+\subsubsection{gcp\_stt}
+{\footnotesize\ttfamily Final Software.\+main.\+gcp\+\_\+stt = importlib.\+import\+\_\+module(\textquotesingle{}gcp\+\_\+stt\textquotesingle{})}
+
+
+
+imported \doxyref{gcp\+\_\+stt}{p.}{namespace_final_01_software_1_1gcp__stt} module 
+
+
+
+Definition at line 29 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_aca85a58df6cebc3158f940773971fad1}} 
+\index{Final Software.main@{Final Software.main}!gui\_queue@{gui\_queue}}
+\index{gui\_queue@{gui\_queue}!Final Software.main@{Final Software.main}}
+\subsubsection{gui\_queue}
+{\footnotesize\ttfamily Final Software.\+main.\+gui\+\_\+queue = queue.\+Queue()}
+
+
+
+G\+UI queue used to communicate and update G\+Ui thread. 
+
+
+
+Definition at line 55 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a465287fc7c964ad13f276c987ed9b267}} 
+\index{Final Software.main@{Final Software.main}!gui\_thread@{gui\_thread}}
+\index{gui\_thread@{gui\_thread}!Final Software.main@{Final Software.main}}
+\subsubsection{gui\_thread}
+{\footnotesize\ttfamily Final Software.\+main.\+gui\+\_\+thread = threading.\+Thread(target=\textbf{ main})}
+
+
+
+Thread processing for maintaining and updating G\+UI. 
+
+
+
+Definition at line 621 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a5a6292193a5db106444abcb424673c8b}} 
+\index{Final Software.main@{Final Software.main}!lab\_machine\_status@{lab\_machine\_status}}
+\index{lab\_machine\_status@{lab\_machine\_status}!Final Software.main@{Final Software.main}}
+\subsubsection{lab\_machine\_status}
+{\footnotesize\ttfamily dictionary Final Software.\+main.\+lab\+\_\+machine\+\_\+status}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{"Lab Machine One"}: \textcolor{keyword}{False},}
+\DoxyCodeLine{3     \textcolor{stringliteral}{"Lab Machine Two"}: \textcolor{keyword}{False},}
+\DoxyCodeLine{4     \textcolor{stringliteral}{"Lab Machine Three"}: \textcolor{keyword}{False},}
+\DoxyCodeLine{5     \textcolor{stringliteral}{"Lab Machine Four"}: \textcolor{keyword}{False}}
+\DoxyCodeLine{6 \}}
+
+\end{DoxyCode}
+
+
+dictionary to track status of lab machine 
+
+
+
+Definition at line 48 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a125dba0bc9b3cede6212dd1ddc18f48f}} 
+\index{Final Software.main@{Final Software.main}!lm\_control@{lm\_control}}
+\index{lm\_control@{lm\_control}!Final Software.main@{Final Software.main}}
+\subsubsection{lm\_control}
+{\footnotesize\ttfamily Final Software.\+main.\+lm\+\_\+control = importlib.\+import\+\_\+module(\textquotesingle{}lm\+\_\+control\textquotesingle{})}
+
+
+
+imported \doxyref{lm\+\_\+control}{p.}{namespace_final_01_software_1_1lm__control} module 
+
+
+
+Definition at line 31 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_ab5f2d848c4fe56dc8013e381b607b4b6}} 
+\index{Final Software.main@{Final Software.main}!lm\_status@{lm\_status}}
+\index{lm\_status@{lm\_status}!Final Software.main@{Final Software.main}}
+\subsubsection{lm\_status}
+{\footnotesize\ttfamily Final Software.\+main.\+lm\+\_\+status = importlib.\+import\+\_\+module(\textquotesingle{}lm\+\_\+status\textquotesingle{})}
+
+
+
+imported \doxyref{lm\+\_\+status}{p.}{namespace_final_01_software_1_1lm__status} module 
+
+
+
+Definition at line 39 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_addfef40a6243858d219093b3474c791f}} 
+\index{Final Software.main@{Final Software.main}!query\_result@{query\_result}}
+\index{query\_result@{query\_result}!Final Software.main@{Final Software.main}}
+\subsubsection{query\_result}
+{\footnotesize\ttfamily Final Software.\+main.\+query\+\_\+result = \textbf{ gcp\+\_\+dialogflow.\+start\+\_\+dialogflow\+\_\+agent}()}
+
+
+
+H\+T\+TP response from dialogflow agent. 
+
+
+
+Definition at line 636 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a59704bc746246dd2bd2daa83c3a7edbe}} 
+\index{Final Software.main@{Final Software.main}!quit\_listen@{quit\_listen}}
+\index{quit\_listen@{quit\_listen}!Final Software.main@{Final Software.main}}
+\subsubsection{quit\_listen}
+{\footnotesize\ttfamily Final Software.\+main.\+quit\+\_\+listen = importlib.\+import\+\_\+module(\textquotesingle{}quit\textquotesingle{})}
+
+
+
+imported quit module 
+
+
+
+Definition at line 43 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_ae6396be7fc02f476d093cf14d35cb83d}} 
+\index{Final Software.main@{Final Software.main}!recognised\_command@{recognised\_command}}
+\index{recognised\_command@{recognised\_command}!Final Software.main@{Final Software.main}}
+\subsubsection{recognised\_command}
+{\footnotesize\ttfamily Final Software.\+main.\+recognised\+\_\+command = query\+\_\+result.\+intent.\+display\+\_\+name}
+
+
+
+Command recognised by dialogflow agent. 
+
+
+
+Definition at line 642 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a76a44747d9c1773749e70585db319a39}} 
+\index{Final Software.main@{Final Software.main}!save\_file@{save\_file}}
+\index{save\_file@{save\_file}!Final Software.main@{Final Software.main}}
+\subsubsection{save\_file}
+{\footnotesize\ttfamily Final Software.\+main.\+save\+\_\+file = importlib.\+import\+\_\+module(\textquotesingle{}save\+\_\+file\textquotesingle{})}
+
+
+
+imported \doxyref{save\+\_\+file}{p.}{namespace_final_01_software_1_1save__file} module 
+
+
+
+Definition at line 41 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_aeaf2d623c66136417ef968c50b478cf2}} 
+\index{Final Software.main@{Final Software.main}!speech\_engine@{speech\_engine}}
+\index{speech\_engine@{speech\_engine}!Final Software.main@{Final Software.main}}
+\subsubsection{speech\_engine}
+{\footnotesize\ttfamily Final Software.\+main.\+speech\+\_\+engine = importlib.\+import\+\_\+module(\textquotesingle{}speech\+\_\+engine\textquotesingle{})}
+
+
+
+imported \doxyref{speech\+\_\+engine}{p.}{namespace_final_01_software_1_1speech__engine} file 
+
+
+
+Definition at line 45 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a2637f0f7c0c441c5f8a6b9d0b17626bc}} 
+\index{Final Software.main@{Final Software.main}!timer@{timer}}
+\index{timer@{timer}!Final Software.main@{Final Software.main}}
+\subsubsection{timer}
+{\footnotesize\ttfamily Final Software.\+main.\+timer = importlib.\+import\+\_\+module(\textquotesingle{}timer\textquotesingle{})}
+
+
+
+imported timer module 
+
+
+
+Definition at line 33 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a70cffb87a90cd27554ced7ee48cf6016}} 
+\index{Final Software.main@{Final Software.main}!trans\_hist@{trans\_hist}}
+\index{trans\_hist@{trans\_hist}!Final Software.main@{Final Software.main}}
+\subsubsection{trans\_hist}
+{\footnotesize\ttfamily string Final Software.\+main.\+trans\+\_\+hist = \char`\"{} \char`\"{}}
+
+
+
+Record of transcription history. 
+
+
+
+Definition at line 59 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a48891a1f869283365295958fe55c9a16}} 
+\index{Final Software.main@{Final Software.main}!twd\_detect@{twd\_detect}}
+\index{twd\_detect@{twd\_detect}!Final Software.main@{Final Software.main}}
+\subsubsection{twd\_detect}
+{\footnotesize\ttfamily Final Software.\+main.\+twd\+\_\+detect = importlib.\+import\+\_\+module(\textquotesingle{}twd\+\_\+imitate\textquotesingle{})}
+
+
+
+imported twd\+\_\+detect module 
+
+
+
+Definition at line 35 of file main.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1main_a5e8d9b2f2f5dc7b5892adf0e0e5b32ef}} 
+\index{Final Software.main@{Final Software.main}!twd\_engine@{twd\_engine}}
+\index{twd\_engine@{twd\_engine}!Final Software.main@{Final Software.main}}
+\subsubsection{twd\_engine}
+{\footnotesize\ttfamily Final Software.\+main.\+twd\+\_\+engine = improtlib.\+import\+\_\+module(\textquotesingle{}twd\+\_\+engine\textquotesingle{})}
+
+
+
+imported \doxyref{twd\+\_\+engine}{p.}{namespace_final_01_software_1_1twd__engine} module 
+
+
+
+Definition at line 37 of file main.\+py.
+

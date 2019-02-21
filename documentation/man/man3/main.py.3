@@ -1,0 +1,124 @@
+.TH "C:/Users/LIU181/Desktop/Final Software/main.py" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/LIU181/Desktop/Final Software/main.py
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBFinal Software\&.main\&.Ui_MainWindow\fP"
+.br
+.ti -1c
+.RI "class \fBFinal Software\&.main\&.updateThread\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBFinal Software\&.main\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBFinal Software\&.main\&.main\fP ()"
+.br
+.RI "Initialise the UI, initialise QThreads\&. "
+.ti -1c
+.RI "def \fBFinal Software\&.main\&.intent_to_function\fP (detected_intent, params)"
+.br
+.RI "Function that converts detected intent into actions and function calls\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBFinal Software\&.main\&.bt\fP = importlib\&.import_module('bt_setup')"
+.br
+.RI "imported bt module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.gcp_dialogflow\fP = importlib\&.import_module('gcp_dialogflow')"
+.br
+.RI "imported \fBgcp_dialogflow\fP module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.gcp_stt\fP = importlib\&.import_module('gcp_stt')"
+.br
+.RI "imported \fBgcp_stt\fP module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.lm_control\fP = importlib\&.import_module('lm_control')"
+.br
+.RI "imported \fBlm_control\fP module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.timer\fP = importlib\&.import_module('timer')"
+.br
+.RI "imported timer module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.twd_detect\fP = importlib\&.import_module('twd_imitate')"
+.br
+.RI "imported twd_detect module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.twd_engine\fP = improtlib\&.import_module('twd_engine')"
+.br
+.RI "imported \fBtwd_engine\fP module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.lm_status\fP = importlib\&.import_module('lm_status')"
+.br
+.RI "imported \fBlm_status\fP module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.save_file\fP = importlib\&.import_module('save_file')"
+.br
+.RI "imported \fBsave_file\fP module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.quit_listen\fP = importlib\&.import_module('quit')"
+.br
+.RI "imported quit module "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.speech_engine\fP = importlib\&.import_module('speech_engine')"
+.br
+.RI "imported \fBspeech_engine\fP file "
+.ti -1c
+.RI "dictionary \fBFinal Software\&.main\&.lab_machine_status\fP"
+.br
+.RI "dictionary to track status of lab machine "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.gui_queue\fP = queue\&.Queue()"
+.br
+.RI "GUI queue used to communicate and update GUi thread\&. "
+.ti -1c
+.RI "list \fBFinal Software\&.main\&.conv_hist\fP = []"
+.br
+.RI "Log of conversation history\&. "
+.ti -1c
+.RI "string \fBFinal Software\&.main\&.trans_hist\fP = ' '"
+.br
+.RI "Record of transcription history\&. "
+.ti -1c
+.RI "bool \fBFinal Software\&.main\&.exit\fP = False"
+.br
+.RI "Boolean to indicate if system should exit\&. "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.gui_thread\fP = threading\&.Thread(target=main)"
+.br
+.RI "Thread processing for maintaining and updating GUI\&. "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.daemon\fP"
+.br
+.RI "Daemon indicates gui thread will terminate when main thread terminates\&. "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.query_result\fP = gcp_dialogflow\&.start_dialogflow_agent()"
+.br
+.RI "HTTP response from dialogflow agent\&. "
+.ti -1c
+.RI "\fBFinal Software\&.main\&.recognised_command\fP = query_result\&.intent\&.display_name"
+.br
+.RI "Command recognised by dialogflow agent\&. "
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

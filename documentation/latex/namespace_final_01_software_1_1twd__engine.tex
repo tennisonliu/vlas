@@ -1,0 +1,104 @@
+\section{Final Software.\+twd\+\_\+engine Namespace Reference}
+\label{namespace_final_01_software_1_1twd__engine}\index{Final Software.twd\_engine@{Final Software.twd\_engine}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \textbf{ detect\+\_\+triggerword\+\_\+spectrum} (model, x)
+\begin{DoxyCompactList}\small\item\em Function to predict existence of trigger word in spectrogram sample. \end{DoxyCompactList}\item 
+def \textbf{ has\+\_\+triggerword} (predictions, chunk\+\_\+duration, feed\+\_\+duration, threshold=0.\+5)
+\begin{DoxyCompactList}\small\item\em Function to predict if trigger word exists. \end{DoxyCompactList}\item 
+def \textbf{ get\+\_\+spectrogram} (data)
+\begin{DoxyCompactList}\small\item\em Function that generates frequency spectrogram based on input audio data. \end{DoxyCompactList}\item 
+def \textbf{ detect\+\_\+twd} ()
+\begin{DoxyCompactList}\small\item\em Function to start listening to streaming microphone input and predict if trigger word is present. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\label{namespace_final_01_software_1_1twd__engine_aeaf5cb423d3cf627b18cbc074eb22348}} 
+\index{Final Software.twd\_engine@{Final Software.twd\_engine}!detect\_triggerword\_spectrum@{detect\_triggerword\_spectrum}}
+\index{detect\_triggerword\_spectrum@{detect\_triggerword\_spectrum}!Final Software.twd\_engine@{Final Software.twd\_engine}}
+\subsubsection{detect\_triggerword\_spectrum()}
+{\footnotesize\ttfamily def Final Software.\+twd\+\_\+engine.\+detect\+\_\+triggerword\+\_\+spectrum (\begin{DoxyParamCaption}\item[{}]{model,  }\item[{}]{x }\end{DoxyParamCaption})}
+
+
+
+Function to predict existence of trigger word in spectrogram sample. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & D\+NN model used to predict for trigger word \\
+\hline
+{\em x} & frequency spectrogram diagram \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+predictions made over sample 
+\end{DoxyReturn}
+
+
+Definition at line 15 of file twd\+\_\+engine.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1twd__engine_a43daac36be0a5bc88b2d2cca216b2dad}} 
+\index{Final Software.twd\_engine@{Final Software.twd\_engine}!detect\_twd@{detect\_twd}}
+\index{detect\_twd@{detect\_twd}!Final Software.twd\_engine@{Final Software.twd\_engine}}
+\subsubsection{detect\_twd()}
+{\footnotesize\ttfamily def Final Software.\+twd\+\_\+engine.\+detect\+\_\+twd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to start listening to streaming microphone input and predict if trigger word is present. 
+
+
+
+Definition at line 63 of file twd\+\_\+engine.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1twd__engine_a092b21d1e6d75d07e319698e7f203005}} 
+\index{Final Software.twd\_engine@{Final Software.twd\_engine}!get\_spectrogram@{get\_spectrogram}}
+\index{get\_spectrogram@{get\_spectrogram}!Final Software.twd\_engine@{Final Software.twd\_engine}}
+\subsubsection{get\_spectrogram()}
+{\footnotesize\ttfamily def Final Software.\+twd\+\_\+engine.\+get\+\_\+spectrogram (\begin{DoxyParamCaption}\item[{}]{data }\end{DoxyParamCaption})}
+
+
+
+Function that generates frequency spectrogram based on input audio data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & input audio file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+frequency spectrogram of audio file 
+\end{DoxyReturn}
+
+
+Definition at line 47 of file twd\+\_\+engine.\+py.
+
+\mbox{\label{namespace_final_01_software_1_1twd__engine_a0b97fe91942ad341c2790b1e1c290512}} 
+\index{Final Software.twd\_engine@{Final Software.twd\_engine}!has\_triggerword@{has\_triggerword}}
+\index{has\_triggerword@{has\_triggerword}!Final Software.twd\_engine@{Final Software.twd\_engine}}
+\subsubsection{has\_triggerword()}
+{\footnotesize\ttfamily def Final Software.\+twd\+\_\+engine.\+has\+\_\+triggerword (\begin{DoxyParamCaption}\item[{}]{predictions,  }\item[{}]{chunk\+\_\+duration,  }\item[{}]{feed\+\_\+duration,  }\item[{}]{threshold = {\ttfamily 0.5} }\end{DoxyParamCaption})}
+
+
+
+Function to predict if trigger word exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em predictions} & probability distribution of existence of trigger word over entire sample \\
+\hline
+{\em chunk\+\_\+duration} & size of chunk \\
+\hline
+{\em feed\+\_\+duration} & size of entire feed, 10 seconds \\
+\hline
+{\em threshold} & threshold used to compare against prediction probability \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean value to indicate chunk has trigger word 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file twd\+\_\+engine.\+py.
+

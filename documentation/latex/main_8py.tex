@@ -1,0 +1,64 @@
+\section{C\+:/\+Users/\+L\+I\+U181/\+Desktop/\+Final Software/main.py File Reference}
+\label{main_8py}\index{C:/Users/LIU181/Desktop/Final Software/main.py@{C:/Users/LIU181/Desktop/Final Software/main.py}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ Final Software.\+main.\+Ui\+\_\+\+Main\+Window}
+\item 
+class \textbf{ Final Software.\+main.\+update\+Thread}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \textbf{ Final Software.\+main}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \textbf{ Final Software.\+main.\+main} ()
+\begin{DoxyCompactList}\small\item\em Initialise the UI, initialise Q\+Threads. \end{DoxyCompactList}\item 
+def \textbf{ Final Software.\+main.\+intent\+\_\+to\+\_\+function} (detected\+\_\+intent, params)
+\begin{DoxyCompactList}\small\item\em Function that converts detected intent into actions and function calls. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Final Software.\+main.\+bt} = importlib.\+import\+\_\+module(\textquotesingle{}bt\+\_\+setup\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported bt module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+gcp\+\_\+dialogflow} = importlib.\+import\+\_\+module(\textquotesingle{}gcp\+\_\+dialogflow\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{gcp\+\_\+dialogflow}{p.}{namespace_final_01_software_1_1gcp__dialogflow} module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+gcp\+\_\+stt} = importlib.\+import\+\_\+module(\textquotesingle{}gcp\+\_\+stt\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{gcp\+\_\+stt}{p.}{namespace_final_01_software_1_1gcp__stt} module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+lm\+\_\+control} = importlib.\+import\+\_\+module(\textquotesingle{}lm\+\_\+control\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{lm\+\_\+control}{p.}{namespace_final_01_software_1_1lm__control} module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+timer} = importlib.\+import\+\_\+module(\textquotesingle{}timer\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported timer module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+twd\+\_\+detect} = importlib.\+import\+\_\+module(\textquotesingle{}twd\+\_\+imitate\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported twd\+\_\+detect module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+twd\+\_\+engine} = improtlib.\+import\+\_\+module(\textquotesingle{}twd\+\_\+engine\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{twd\+\_\+engine}{p.}{namespace_final_01_software_1_1twd__engine} module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+lm\+\_\+status} = importlib.\+import\+\_\+module(\textquotesingle{}lm\+\_\+status\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{lm\+\_\+status}{p.}{namespace_final_01_software_1_1lm__status} module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+save\+\_\+file} = importlib.\+import\+\_\+module(\textquotesingle{}save\+\_\+file\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{save\+\_\+file}{p.}{namespace_final_01_software_1_1save__file} module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+quit\+\_\+listen} = importlib.\+import\+\_\+module(\textquotesingle{}quit\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported quit module \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+speech\+\_\+engine} = importlib.\+import\+\_\+module(\textquotesingle{}speech\+\_\+engine\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em imported \doxyref{speech\+\_\+engine}{p.}{namespace_final_01_software_1_1speech__engine} file \end{DoxyCompactList}\item 
+dictionary \textbf{ Final Software.\+main.\+lab\+\_\+machine\+\_\+status}
+\begin{DoxyCompactList}\small\item\em dictionary to track status of lab machine \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+gui\+\_\+queue} = queue.\+Queue()
+\begin{DoxyCompactList}\small\item\em G\+UI queue used to communicate and update G\+Ui thread. \end{DoxyCompactList}\item 
+list \textbf{ Final Software.\+main.\+conv\+\_\+hist} = [$\,$]
+\begin{DoxyCompactList}\small\item\em Log of conversation history. \end{DoxyCompactList}\item 
+string \textbf{ Final Software.\+main.\+trans\+\_\+hist} = \char`\"{} \char`\"{}
+\begin{DoxyCompactList}\small\item\em Record of transcription history. \end{DoxyCompactList}\item 
+bool \textbf{ Final Software.\+main.\+exit} = False
+\begin{DoxyCompactList}\small\item\em Boolean to indicate if system should exit. \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+gui\+\_\+thread} = threading.\+Thread(target=main)
+\begin{DoxyCompactList}\small\item\em Thread processing for maintaining and updating G\+UI. \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+daemon}
+\begin{DoxyCompactList}\small\item\em Daemon indicates gui thread will terminate when main thread terminates. \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+query\+\_\+result} = gcp\+\_\+dialogflow.\+start\+\_\+dialogflow\+\_\+agent()
+\begin{DoxyCompactList}\small\item\em H\+T\+TP response from dialogflow agent. \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+main.\+recognised\+\_\+command} = query\+\_\+result.\+intent.\+display\+\_\+name
+\begin{DoxyCompactList}\small\item\em Command recognised by dialogflow agent. \end{DoxyCompactList}\end{DoxyCompactItemize}

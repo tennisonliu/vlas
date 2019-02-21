@@ -1,0 +1,94 @@
+.TH "Final Software.gcp_dialogflow" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.gcp_dialogflow
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBdetect_intent_stream\fP (cred_path)"
+.br
+.RI "Generator that continuously yields StreamingDetectIntentRequest() objects When starting a new stream, the first object generated should include relevant audio_config file\&. "
+.ti -1c
+.RI "def \fBstt_callback\fP (in_data)"
+.br
+.RI "Callback function that reads chunks of data from microphone and put chunks in shared queue\&. "
+.ti -1c
+.RI "def \fBstart_dialogflow_agent\fP ()"
+.br
+.RI "Function to activate dialogflow agent, opens and starts pyaudio microphone stream\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBspeech_engine\fP = importlib\&.import_module('speech_engine')"
+.br
+.RI "Speech engine for voice-based feedback\&. "
+.ti -1c
+.RI "\fBintent_queue\fP = Queue()"
+.br
+.RI "Buffer to hold audio data from microphone input\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.gcp_dialogflow\&.detect_intent_stream ( cred_path)"
+
+.PP
+Generator that continuously yields StreamingDetectIntentRequest() objects When starting a new stream, the first object generated should include relevant audio_config file\&. Objects generated after do not need to include config information 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIaudio_config\fP audio stream configuration information 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+yielded chunks of HTTP requests to dialogflow with chunks of audio data 
+.RE
+.PP
+
+.SS "def Final Software\&.gcp_dialogflow\&.start_dialogflow_agent ()"
+
+.PP
+Function to activate dialogflow agent, opens and starts pyaudio microphone stream\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+detected intent in query 
+.RE
+.PP
+
+.SS "def Final Software\&.gcp_dialogflow\&.stt_callback ( in_data)"
+
+.PP
+Callback function that reads chunks of data from microphone and put chunks in shared queue\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIin_data\fP new chunk of audio data 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+in_data and pyaudio flag to continue callback 
+.RE
+.PP
+
+.SH "Variable Documentation"
+.PP 
+.SS "Final Software\&.gcp_dialogflow\&.intent_queue = Queue()"
+
+.PP
+Buffer to hold audio data from microphone input\&. 
+.SS "Final Software\&.gcp_dialogflow\&.speech_engine = importlib\&.import_module('speech_engine')"
+
+.PP
+Speech engine for voice-based feedback\&. 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

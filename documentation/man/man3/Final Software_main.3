@@ -1,0 +1,227 @@
+.TH "Final Software.main" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.main
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBUi_MainWindow\fP"
+.br
+.ti -1c
+.RI "class \fBupdateThread\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBmain\fP ()"
+.br
+.RI "Initialise the UI, initialise QThreads\&. "
+.ti -1c
+.RI "def \fBintent_to_function\fP (detected_intent, params)"
+.br
+.RI "Function that converts detected intent into actions and function calls\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBbt\fP = importlib\&.import_module('bt_setup')"
+.br
+.RI "imported bt module "
+.ti -1c
+.RI "\fBgcp_dialogflow\fP = importlib\&.import_module('gcp_dialogflow')"
+.br
+.RI "imported \fBgcp_dialogflow\fP module "
+.ti -1c
+.RI "\fBgcp_stt\fP = importlib\&.import_module('gcp_stt')"
+.br
+.RI "imported \fBgcp_stt\fP module "
+.ti -1c
+.RI "\fBlm_control\fP = importlib\&.import_module('lm_control')"
+.br
+.RI "imported \fBlm_control\fP module "
+.ti -1c
+.RI "\fBtimer\fP = importlib\&.import_module('timer')"
+.br
+.RI "imported timer module "
+.ti -1c
+.RI "\fBtwd_detect\fP = importlib\&.import_module('twd_imitate')"
+.br
+.RI "imported twd_detect module "
+.ti -1c
+.RI "\fBtwd_engine\fP = improtlib\&.import_module('twd_engine')"
+.br
+.RI "imported \fBtwd_engine\fP module "
+.ti -1c
+.RI "\fBlm_status\fP = importlib\&.import_module('lm_status')"
+.br
+.RI "imported \fBlm_status\fP module "
+.ti -1c
+.RI "\fBsave_file\fP = importlib\&.import_module('save_file')"
+.br
+.RI "imported \fBsave_file\fP module "
+.ti -1c
+.RI "\fBquit_listen\fP = importlib\&.import_module('quit')"
+.br
+.RI "imported quit module "
+.ti -1c
+.RI "\fBspeech_engine\fP = importlib\&.import_module('speech_engine')"
+.br
+.RI "imported \fBspeech_engine\fP file "
+.ti -1c
+.RI "dictionary \fBlab_machine_status\fP"
+.br
+.RI "dictionary to track status of lab machine "
+.ti -1c
+.RI "\fBgui_queue\fP = queue\&.Queue()"
+.br
+.RI "GUI queue used to communicate and update GUi thread\&. "
+.ti -1c
+.RI "list \fBconv_hist\fP = []"
+.br
+.RI "Log of conversation history\&. "
+.ti -1c
+.RI "string \fBtrans_hist\fP = ' '"
+.br
+.RI "Record of transcription history\&. "
+.ti -1c
+.RI "bool \fBexit\fP = False"
+.br
+.RI "Boolean to indicate if system should exit\&. "
+.ti -1c
+.RI "\fBgui_thread\fP = threading\&.Thread(target=\fBmain\fP)"
+.br
+.RI "Thread processing for maintaining and updating GUI\&. "
+.ti -1c
+.RI "\fBdaemon\fP"
+.br
+.RI "Daemon indicates gui thread will terminate when main thread terminates\&. "
+.ti -1c
+.RI "\fBquery_result\fP = \fBgcp_dialogflow\&.start_dialogflow_agent\fP()"
+.br
+.RI "HTTP response from dialogflow agent\&. "
+.ti -1c
+.RI "\fBrecognised_command\fP = query_result\&.intent\&.display_name"
+.br
+.RI "Command recognised by dialogflow agent\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.main\&.intent_to_function ( detected_intent,  params)"
+
+.PP
+Function that converts detected intent into actions and function calls\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdetected_intent\fP the intent detected and returned by the dialogflow agent 
+.br
+\fIparams\fP the parameters detected along with the user intent 
+.RE
+.PP
+
+.SS "def Final Software\&.main\&.main ()"
+
+.PP
+Initialise the UI, initialise QThreads\&. 
+.SH "Variable Documentation"
+.PP 
+.SS "Final Software\&.main\&.bt = importlib\&.import_module('bt_setup')"
+
+.PP
+imported bt module 
+.SS "list Final Software\&.main\&.conv_hist = []"
+
+.PP
+Log of conversation history\&. 
+.SS "Final Software\&.main\&.daemon"
+
+.PP
+Daemon indicates gui thread will terminate when main thread terminates\&. 
+.SS "bool Final Software\&.main\&.exit = False"
+
+.PP
+Boolean to indicate if system should exit\&. 
+.SS "Final Software\&.main\&.gcp_dialogflow = importlib\&.import_module('gcp_dialogflow')"
+
+.PP
+imported \fBgcp_dialogflow\fP module 
+.SS "Final Software\&.main\&.gcp_stt = importlib\&.import_module('gcp_stt')"
+
+.PP
+imported \fBgcp_stt\fP module 
+.SS "Final Software\&.main\&.gui_queue = queue\&.Queue()"
+
+.PP
+GUI queue used to communicate and update GUi thread\&. 
+.SS "Final Software\&.main\&.gui_thread = threading\&.Thread(target=\fBmain\fP)"
+
+.PP
+Thread processing for maintaining and updating GUI\&. 
+.SS "dictionary Final Software\&.main\&.lab_machine_status"
+\fBInitial value:\fP
+.PP
+.nf
+1 =  {
+2     "Lab Machine One": False,
+3     "Lab Machine Two": False,
+4     "Lab Machine Three": False,
+5     "Lab Machine Four": False
+6 }
+.fi
+.PP
+dictionary to track status of lab machine 
+.SS "Final Software\&.main\&.lm_control = importlib\&.import_module('lm_control')"
+
+.PP
+imported \fBlm_control\fP module 
+.SS "Final Software\&.main\&.lm_status = importlib\&.import_module('lm_status')"
+
+.PP
+imported \fBlm_status\fP module 
+.SS "Final Software\&.main\&.query_result = \fBgcp_dialogflow\&.start_dialogflow_agent\fP()"
+
+.PP
+HTTP response from dialogflow agent\&. 
+.SS "Final Software\&.main\&.quit_listen = importlib\&.import_module('quit')"
+
+.PP
+imported quit module 
+.SS "Final Software\&.main\&.recognised_command = query_result\&.intent\&.display_name"
+
+.PP
+Command recognised by dialogflow agent\&. 
+.SS "Final Software\&.main\&.save_file = importlib\&.import_module('save_file')"
+
+.PP
+imported \fBsave_file\fP module 
+.SS "Final Software\&.main\&.speech_engine = importlib\&.import_module('speech_engine')"
+
+.PP
+imported \fBspeech_engine\fP file 
+.SS "Final Software\&.main\&.timer = importlib\&.import_module('timer')"
+
+.PP
+imported timer module 
+.SS "string Final Software\&.main\&.trans_hist = ' '"
+
+.PP
+Record of transcription history\&. 
+.SS "Final Software\&.main\&.twd_detect = importlib\&.import_module('twd_imitate')"
+
+.PP
+imported twd_detect module 
+.SS "Final Software\&.main\&.twd_engine = improtlib\&.import_module('twd_engine')"
+
+.PP
+imported \fBtwd_engine\fP module 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

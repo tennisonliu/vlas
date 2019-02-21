@@ -1,0 +1,93 @@
+.TH "Final Software.twd_engine" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.twd_engine
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBdetect_triggerword_spectrum\fP (model, x)"
+.br
+.RI "Function to predict existence of trigger word in spectrogram sample\&. "
+.ti -1c
+.RI "def \fBhas_triggerword\fP (predictions, chunk_duration, feed_duration, threshold=0\&.5)"
+.br
+.RI "Function to predict if trigger word exists\&. "
+.ti -1c
+.RI "def \fBget_spectrogram\fP (data)"
+.br
+.RI "Function that generates frequency spectrogram based on input audio data\&. "
+.ti -1c
+.RI "def \fBdetect_twd\fP ()"
+.br
+.RI "Function to start listening to streaming microphone input and predict if trigger word is present\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.twd_engine\&.detect_triggerword_spectrum ( model,  x)"
+
+.PP
+Function to predict existence of trigger word in spectrogram sample\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImodel\fP DNN model used to predict for trigger word 
+.br
+\fIx\fP frequency spectrogram diagram 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+predictions made over sample 
+.RE
+.PP
+
+.SS "def Final Software\&.twd_engine\&.detect_twd ()"
+
+.PP
+Function to start listening to streaming microphone input and predict if trigger word is present\&. 
+.SS "def Final Software\&.twd_engine\&.get_spectrogram ( data)"
+
+.PP
+Function that generates frequency spectrogram based on input audio data\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdata\fP input audio file 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+frequency spectrogram of audio file 
+.RE
+.PP
+
+.SS "def Final Software\&.twd_engine\&.has_triggerword ( predictions,  chunk_duration,  feed_duration,  threshold = \fC0\&.5\fP)"
+
+.PP
+Function to predict if trigger word exists\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpredictions\fP probability distribution of existence of trigger word over entire sample 
+.br
+\fIchunk_duration\fP size of chunk 
+.br
+\fIfeed_duration\fP size of entire feed, 10 seconds 
+.br
+\fIthreshold\fP threshold used to compare against prediction probability 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+boolean value to indicate chunk has trigger word 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

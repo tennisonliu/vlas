@@ -1,0 +1,23 @@
+\section{C\+:/\+Users/\+L\+I\+U181/\+Desktop/\+Final Software/gcp\+\_\+dialogflow.py File Reference}
+\label{gcp__dialogflow_8py}\index{C:/Users/LIU181/Desktop/Final Software/gcp\_dialogflow.py@{C:/Users/LIU181/Desktop/Final Software/gcp\_dialogflow.py}}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \textbf{ Final Software.\+gcp\+\_\+dialogflow}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \textbf{ Final Software.\+gcp\+\_\+dialogflow.\+detect\+\_\+intent\+\_\+stream} (cred\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Generator that continuously yields Streaming\+Detect\+Intent\+Request() objects When starting a new stream, the first object generated should include relevant audio\+\_\+config file. \end{DoxyCompactList}\item 
+def \textbf{ Final Software.\+gcp\+\_\+dialogflow.\+stt\+\_\+callback} (in\+\_\+data)
+\begin{DoxyCompactList}\small\item\em Callback function that reads chunks of data from microphone and put chunks in shared queue. \end{DoxyCompactList}\item 
+def \textbf{ Final Software.\+gcp\+\_\+dialogflow.\+start\+\_\+dialogflow\+\_\+agent} ()
+\begin{DoxyCompactList}\small\item\em Function to activate dialogflow agent, opens and starts pyaudio microphone stream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Final Software.\+gcp\+\_\+dialogflow.\+speech\+\_\+engine} = importlib.\+import\+\_\+module(\textquotesingle{}speech\+\_\+engine\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em Speech engine for voice-\/based feedback. \end{DoxyCompactList}\item 
+\textbf{ Final Software.\+gcp\+\_\+dialogflow.\+intent\+\_\+queue} = Queue()
+\begin{DoxyCompactList}\small\item\em Buffer to hold audio data from microphone input. \end{DoxyCompactList}\end{DoxyCompactItemize}

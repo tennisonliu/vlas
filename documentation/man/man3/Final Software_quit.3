@@ -1,0 +1,56 @@
+.TH "Final Software.quit" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.quit
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBquit_detect_intent\fP (conv_hist, trans_hist)"
+.br
+.RI "Function that saves conv_hist and trans_hist to disk before quitting the system\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBsave_file\fP = importlib\&.import_module('save_file')"
+.br
+.RI "imported \fBsave_file\fP module "
+.ti -1c
+.RI "\fBspeech_engine\fP = importlib\&.import_module('speech_engine')"
+.br
+.RI "imported \fBspeech_engine\fP module "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.quit\&.quit_detect_intent ( conv_hist,  trans_hist)"
+
+.PP
+Function that saves conv_hist and trans_hist to disk before quitting the system\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIconv_hist\fP conversation history log 
+.br
+\fItrans_hist\fP transcription log 
+.RE
+.PP
+
+.SH "Variable Documentation"
+.PP 
+.SS "Final Software\&.quit\&.save_file = importlib\&.import_module('save_file')"
+
+.PP
+imported \fBsave_file\fP module 
+.SS "Final Software\&.quit\&.speech_engine = importlib\&.import_module('speech_engine')"
+
+.PP
+imported \fBspeech_engine\fP module 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

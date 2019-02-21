@@ -1,0 +1,43 @@
+.TH "Final Software.timer" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Final Software.timer
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBcontrol_timer\fP (queue, duration={ 'unit':'seconds', 'amount':0}, start=True, status_check=False)"
+.br
+.RI "Function that starts, stops and checks status of timer\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def Final Software\&.timer\&.control_timer ( queue,  duration = \fC{'unit':'seconds', 'amount':0}\fP,  start = \fCTrue\fP,  status_check = \fCFalse\fP)"
+
+.PP
+Function that starts, stops and checks status of timer\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIqueue\fP queue used to update GUI thread 
+.br
+\fIdictionary\fP containing time unit and duration to start timer 
+.br
+\fIboolean\fP value to indicate timer should start 
+.br
+\fIboolean\fP value to perform status check on timer 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+amount of time left on countdown 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.

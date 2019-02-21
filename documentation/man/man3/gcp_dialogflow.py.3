@@ -1,0 +1,46 @@
+.TH "C:/Users/LIU181/Desktop/Final Software/gcp_dialogflow.py" 3 "Fri Feb 22 2019" "VLAS_AGENT" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/LIU181/Desktop/Final Software/gcp_dialogflow.py
+.SH SYNOPSIS
+.br
+.PP
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBFinal Software\&.gcp_dialogflow\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBFinal Software\&.gcp_dialogflow\&.detect_intent_stream\fP (cred_path)"
+.br
+.RI "Generator that continuously yields StreamingDetectIntentRequest() objects When starting a new stream, the first object generated should include relevant audio_config file\&. "
+.ti -1c
+.RI "def \fBFinal Software\&.gcp_dialogflow\&.stt_callback\fP (in_data)"
+.br
+.RI "Callback function that reads chunks of data from microphone and put chunks in shared queue\&. "
+.ti -1c
+.RI "def \fBFinal Software\&.gcp_dialogflow\&.start_dialogflow_agent\fP ()"
+.br
+.RI "Function to activate dialogflow agent, opens and starts pyaudio microphone stream\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBFinal Software\&.gcp_dialogflow\&.speech_engine\fP = importlib\&.import_module('speech_engine')"
+.br
+.RI "Speech engine for voice-based feedback\&. "
+.ti -1c
+.RI "\fBFinal Software\&.gcp_dialogflow\&.intent_queue\fP = Queue()"
+.br
+.RI "Buffer to hold audio data from microphone input\&. "
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for VLAS_AGENT from the source code\&.
